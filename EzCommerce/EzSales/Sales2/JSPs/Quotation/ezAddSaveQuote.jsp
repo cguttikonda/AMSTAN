@@ -25,12 +25,8 @@
 	String salesAreaCode = (String)session.getValue("SalesAreaCode");
 	String salesAreaName = (String)session.getValue("Country");
 	salesAreaCode = salesAreaCode.trim(); 
-
+	ezc.ezcommon.EzLog4j.log("This message is to check the version control::::","I");
 	String status = setSalVal.getStatus(); 
-
-	System.out.println("salesAreaCode::::::"+salesAreaCode);
-	
-
 	String status = setSalVal.getStatus();
 
 	boolean NEW 		= false;	if(("New").equalsIgnoreCase(status)) NEW = true;
