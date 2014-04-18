@@ -1,0 +1,73 @@
+<style type="application/octet-stream">
+<!--
+.menuclass{font-family: Verdana;font-size: 9px;font-style: normal;font-weight: bold;color: #FFFFFF;text-decoration: none;}
+a.menuclass:active{FONT-WEIGHT:bold;color: #3366CC}
+a.menuclass:hover{FONT-WEIGHT:bold;color: #3366CC}
+a.menuclass:link{FONT-WEIGHT:bold;color: #3366CC}
+a.menuclass:visited{FONT-WEIGHT:bold;color: #3366CC}
+body.menubgcolor{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#A1B4BF');}
+.menusaparetar{color: #FFFFFF;}
+-->
+
+<!--
+
+a:active {text-decoration: none;color: #FFFFFF;}
+a:active {text-decoration: none;color: #FFFFFF;}
+a:hover  {FONT-WEIGHT:bold;color: #FFFFFF;}
+a:link   {text-decoration: none;color: #FFFFFF;}
+
+.footerbody{background-color:#FFFFFF;}
+.footerhelpline{background-color:#660000;}
+.footerbottam
+{
+	font-family:  Verdana, Arial; 
+	font-size: 8px; 
+	font-style: normal; 
+	color: #660000
+	background-color:"#E7B7CF";
+}
+.footerpowerby{
+	font-family:  Verdana, Arial; 
+	font-size: 9px; 
+	font-style: normal; 
+	color: #000000;
+}
+.footerlinkcell
+{
+	font-family:  Verdana, Arial; 
+	font-size: 10px; 
+	font-style: normal; 
+	color: #660000;
+}
+-->
+<!--
+.bannerbody{background-color:"#FFFFFF";}
+.newslabel{
+	font-family:  Verdana, Arial; 
+	font-style: normal; 
+	font-size: 11px;
+	color: #660000;
+	font-weight: bold; 
+}
+.userlabelcell{
+	color: #FFFFFF;
+	font-family:  Verdana, Arial; 
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: none;
+	font-weight: bold; 
+}
+.usertextcell{
+	font-family:  Verdana, Arial; 
+	font-size: 11px; 
+	font-style: normal;
+	color: #FFFFFF;
+	font-weight: bold; 
+}
+.maillinkcell{
+	color: #FFFFFF;
+	font-family: verdana, arial;
+	font-size: 11px;
+   	text-decoration: none
+}
+-->
+</style>

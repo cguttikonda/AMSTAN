@@ -1,0 +1,209 @@
+<style>
+<!--
+a:active {color: #000066}
+a:hover {color: #000066}
+a:link {color: #000066}
+a:visited{color:#000066}
+
+.subclass{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a.subclass{
+	color: white;
+	text-decoration:underline;
+}
+a.subclass:active {color: yellow}
+a.subclass:hover {color: yellow}
+a.subclass:link {color: yellow}
+a.subclass:visited{color: WHITE}
+
+.changeC{
+	font-family: "Trebuchet MS";
+	font-size: 8pt;
+	font-style: normal;
+	color: RED;
+	background-color:YELLOW
+
+}
+.submenuclass{}
+a.submenuclass{
+	color: white;
+	text-decoration:underline;
+}
+a.submenuclass:active {color: white}
+a.submenuclass:hover {color: whitew}
+a.submenuclass:link {color: white}
+a.submenuclass:visited{color: WHITE}
+
+
+td {
+	font-family: "Arial, Helvetica";
+	font-size: 11px;
+	font-style: bold;
+	font-weight: normal;
+	color: #000066;
+	background-color: #ffe9c4}
+.tabclass{}
+td.tabclass{background-color: #CCCCCC}
+
+.mainmenuclass{}
+td.mainmenuclass{background-color: #ffcc66}
+
+.bgcolorclass{}
+body.bgcolorclass{background-color: #ffcc66}
+
+.bodyclass{}
+body.bodyclass{background-color: #ffcc66}
+
+.bodymenuclass{}
+body.bodymenuclass{background-color: #ffcc66}
+
+.menucell{}
+td.menucell{background-color: #63319C}
+
+.bannercell{}
+td.bannercell{background-color: #62106A}
+
+.tdmenuclass{}
+td.tdmenuclass{color: #ffffff;
+               background-color: #ffcc66}
+
+
+.bannerbody{}
+body.bannerbody{background-color: #62106A}
+td.bannerbody{background-color: #62106A}
+
+.displayheader{}
+td.displayheader{
+	font-family: "Arial";
+	font-size: 14px;
+	font-weight: bold;
+	font-style: bold;
+	color: #000066;
+	background-color: #ffcc66
+}
+
+.labelcell{}
+td.labelcell{
+	font-family: "Arial";
+	font-size: 11px;
+	font-style: normal;
+	color: #000066;
+	background-color: #ffcc66
+}
+
+.blankcell{}
+td.blankcell{
+	background-color: #FFFFFF
+}
+TD.btnup
+	{
+    	cursor: hand;
+    	color: #ffe9c4;
+    	background-color: #ffcc66;
+    	padding: 1 8px;
+    	border: outset #ffe9c4 3px;
+
+	font-family: arial,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	}
+TD.btnoff
+	{
+    	color: #ffcc66;
+    	background-color: #ffe9c4;
+    	padding: 1 8px;
+    	border: solid #ffcc66 3px;
+
+	font-family: arial,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	}
+.nonapplabel{}
+th.nonapplabel{
+	font-family: "Arial";
+	font-size: 10pt;
+	font-style: normal;
+	color: #000066;
+	background-color: #F2CF09
+}
+
+table {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14pt;
+	font-style: normal;
+	color: #330099
+}
+th {
+	font-family: Verdana;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000066; 
+	background-color: #ffcc66
+}
+body {  
+	color: #000066; 
+	background-color: #FFFFFF
+   	scrollbar-3dlight-color:#ffcc66;
+   	scrollbar-arrow-color:#ffcc66;
+	scrollbar-base-color:#ffe9c4;
+	scrollbar-darkshadow-color:#ffcc66;
+	scrollbar-highlight-color:#ffcc66;
+	scrollbar-shadow-color:#ffcc66;
+	Scrollbar-Track-Color :white	
+}
+tr {  
+	font-family: "Trebuchet MS"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	color: #000066
+}
+
+p {
+	font-family: "Arial, Helvetica";
+	font-size: 11pt;
+	font-style: normal;
+	color: #4682B4
+}
+.DisplayBox
+{
+	border:none;
+	font-family: "Arial, Helvetica";
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000066;
+	background-color:#ffe9c4
+
+}
+.textInBox
+{
+	border:0;
+	background-color: #ffe9c4;
+	text-align:left;
+}
+
+.InputBox
+    {
+	  BORDER-RIGHT:black 1px inset;
+	  BORDER-TOP: white 1px inset;
+	  BORDER-LEFT: white 1px inset;
+	  BORDER-BOTTOM: black 1px inset;
+	  FONT-FAMILY: Verdana;
+    }
+select
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    TEXT-DECORATION: none
+}
+-->
+</style>

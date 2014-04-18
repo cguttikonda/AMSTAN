@@ -1,0 +1,108 @@
+.subclass{
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #ffffff;
+}
+a.subclass{
+	color: #ffffff;
+	text-decoration:underline;
+}
+a.subclass:active {color: #ffffff}
+a.subclass:hover {color: #ffffff}
+a.subclass:link {color: #ffffff}
+a.subclass:visited{color: #ffffff}
+
+
+.bannercell_0{}
+font.bannercell_0{
+	font-family: "Verdana"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	color: #FFFFFF;
+	}
+.bannercell_1{}
+font.bannercell_1{
+	font-family: "Verdana"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	color: #ffcc00;
+
+	}
+.bannercell_3{}
+font.bannercell_3{
+	font-family: "Verdana"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	color: #ffffff;
+	}
+.footercell_0{}
+font.footercell_0{
+	font-family: "Verdana"; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #FFFFFF;
+
+	}
+
+.footercell_1{}
+font.footercell_1{
+	font-family: "Verdana"; 
+	font-size: 7pt; 
+	font-style: normal; 
+	color: #ffcc00;
+
+	}
+.bgcolorclass{
+background-color: #003468;
+color: #ffffff;
+}
+
+			a:active { text-decoration: none
+			color: #ffffff}
+			a:active {color: #ffffff}
+			a:hover {color: #ffffff}
+			a:link {text-decoration: none;
+			color: #ffffff}
+		.menutext{}	
+		table.menutext {
+			font-family: verdana,arial,sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			
+			color: #ffffff;
+			
+			}
+		th.menutext {
+			font-family: verdana,arial,sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			
+			cursor:hand;
+			color: #ffffff;
+			
+			}
+		td.menutext {
+			font-family: verdana,arial,sans-serif;
+			font-size: 11px;
+			font-style: normal;
+			cursor:hand;
+			color: #ffffff;
+		}
+		.menuback{}
+		td.menuback{
+		background-color: #e7e7e7;
+			}
+			div{
+					font-family: "verdana,arial,sans-serif";
+					font-size: 11px;
+					font-style: normal;
+					padding = 0px;
+					border-top=2px outset #ffffff;
+					border-bottom=2px inset #ffffff;
+					border-left=1px outset #ffffff ;
+					border-right=1px outset black;
+					background:#003468;
+					color:"#ffffff";
+		}	

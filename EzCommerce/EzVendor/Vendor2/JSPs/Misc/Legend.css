@@ -1,0 +1,46 @@
+legend
+{
+	font-family:"Times New Roman";
+	color:brown;
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #965ad1.;
+	color: #fff;
+}
+	
+fieldset
+{
+	-moz-border-radius: 8px; 
+	border-radius: 8px;
+	-webkit-border-radius: 8px; 
+}
+td
+{
+	font-family:"Times New Roman";
+	font-size:12px;
+}
+label 
+{
+	display: inline-block;
+}
+li
+{
+	float:left; 
+	width:120px; 
+	text-align:center; 
+	padding:20px 20px; 
+	margin:0 .25em;
+}
+.button
+{
+	font-family:"Times New Roman";
+	color:brown;
+	text-align: left;
+	padding: 8px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #95d15a;
+	color: #fff;
+}

@@ -1,0 +1,105 @@
+.subclass{
+	font-family: Verdana;
+	font-size: 11px;
+	
+	font-weight: bold;
+	color: #003468;
+}
+a.subclass{
+	color: #003468;
+	text-decoration:underline;
+}
+a.subclass:active {color: #003468}
+a.subclass:hover {color: #003468}
+a.subclass:link {color: #003468}
+a.subclass:visited{color: #003468}
+
+.bannercell_0{}
+font.bannercell_0{
+	font-family: "Verdana"; 
+	font-size: 10pt; 
+	color: #ff0000;
+	}
+.bannercell_1{}
+font.bannercell_1{
+	font-family: "Verdana"; 
+	font-size: 10pt; 
+	color: #003468;
+
+	}
+.bannercell_3{}
+font.bannercell_3{
+	font-family: "Verdana"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	color: #ff0000;
+	}
+.footercell_0{}
+font.footercell_0{
+	font-family: "Verdana"; 
+	font-size: 8pt; 
+	 
+	color: #ff0000;
+
+	}
+
+.footercell_1{}
+font.footercell_1{
+	font-family: "Verdana"; 
+	font-size: 7pt; 
+	 
+	color: #003468;
+
+	}
+.bgcolorclass{
+background-color: #ffcf68;
+color: #003468;
+}
+
+			a:active { text-decoration: none
+			color: #003468}
+			a:active {color: #003468}
+			a:hover {color: #003468}
+			a:link {text-decoration: none;
+			color: #003468}
+		.menutext{}	
+		table.menutext {
+			font-family: verdana,sans-serif;
+			font-size: 11px;
+			font-weight:bold;
+			cursor:hand;
+			color: #003468;
+			
+			}
+		th.menutext {
+			font-family: verdana,sans-serif;
+			font-size: 11px;
+			font-weight:bold;
+			cursor:hand;
+			color: #003468;
+			
+			}
+		td.menutext {
+			font-family: verdana,sans-serif;
+			font-size: 11px;
+			
+			font-weight:bold;
+			cursor:hand;
+			color: #003468;
+		}
+		.menuback{}
+		td.menuback{
+		background-color: #003468;
+			}
+div{
+		font-family: "verdana,arial,sans-serif";
+		font-size: 11px;
+		font-style: normal;
+		padding = 0px;
+		border-top=2px outset #ffcf68;
+		border-bottom=2px inset #ffcf68;
+		border-left=1px outset #ffcf68 ;
+		border-right=1px outset black;
+		background:#ffcf68;
+		color:"#003468";
+		}			

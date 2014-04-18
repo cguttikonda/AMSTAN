@@ -1,0 +1,320 @@
+<style >
+<!--
+active {color: blue}
+hover {color: coral}
+link {color: indigo}
+
+.subclass{
+	font-family: verdana, arial;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a.subclass{
+	color: white;
+	text-decoration:underline;
+}
+a.subclass:active {color: yellow}
+a.subclass:hover {color: yellow}
+a.subclass:link {color: yellow}
+a.subclass:visited{color: white}
+
+table {  
+	font-family: verdana, arial;
+	font-size: 9px; 
+	font-style: normal; 
+	color: #00385D
+}
+th {  
+	color: #00385D;
+	font-family: verdana, arial;
+	font-size: 11px;
+    	text-decoration: none;
+    	background-color: #CACACA
+
+}
+tr {  
+	font-family: verdana, arial;
+	font-size: 11px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	color: #00385D
+}
+td {
+	color: #00385d;
+	font-family: tahoma;
+    	font-size: 11px;
+    	background-color: #EDF1F4
+    	
+}
+
+p {
+	font-family: verdana, arial;
+	font-size: 11px;
+	font-style: normal;
+	color: #000000;
+	<!--background-color: #FFCCCC-->
+}
+
+.bodyclass{}
+body.bodyclass{background-color: #00385D}
+
+.welcomebody{}
+body.welcomebody
+{
+	background-color: #ffffff
+}
+
+.displayheader{}
+td.displayheader
+{
+   color: #00385D;
+   font-family: verdana, arial;
+   font-size: 12px;
+   font-weight: 600;
+   text-decoration: none;
+
+}
+.displayheaderback
+{
+	background-color: #CAD5DB
+	font-size: 12px; 
+	font-style: bold; 
+	font-weight: 600; 
+	color: #00385D   
+}
+
+.waitDiv
+{
+	position:absolute;
+	background-color: #FFFFFF;
+	color: #00385D;
+	font-family: tahoma;
+	font-size: 15px; 
+	font-style: bold; 
+	font-weight: 600; 
+	align: center;
+	width:100%;
+	top:20%;
+}
+
+.displayalert{}
+td.displayalert{
+   color: #00385D;
+   font-family: verdana, arial;
+   font-size: 12px;
+   font-weight: 600;
+   background-color: #ffffff;
+   text-decoration: none;
+
+}
+.labelcell{}
+td.labelcell{
+	font-family: verdana, arial;
+	font-size: 9px;
+	font-style: normal;
+	color: #ffffff;
+	background-color: #00385D
+}
+
+.blankcell{}
+td.blankcell
+{
+	background-color: #ffffff
+}
+
+.welcomecell{}
+td.welcomecell
+{
+	background-color: #FFFFFF
+	font-size: 9px;
+	color:#00385D
+}
+
+
+.credit{}
+td.credit{color:black}
+
+.debit{}
+td.debit{color:red}
+
+body 
+{
+	color: #00385d;
+	background-color: #FFFFFF;
+	scrollbar-3dlight-color:#CACACA;
+	scrollbar-arrow-color:#02335E;
+	scrollbar-base-color:#CACACA;
+	scrollbar-darkshadow-color:#CACACA;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-shadow-color:#000000;
+	Scrollbar-Track-Color :#FFFFFF
+}
+
+.txcredit {
+	font-family: verdana, arial;
+	border:none;
+	font-size: 9px;
+	background-color:#ffffff;
+	color: #000000
+}
+
+.txdebit {
+	font-family: verdana, arial;
+	border:none;
+	font-size: 9px;
+	background-color:#ffffff;
+	color:red;
+
+}
+
+.tx {
+	font-family: verdana, arial;
+	border:0;
+	font-size: 9px;
+	background-color:#EDF1F4;
+	text-align:left;
+	color: #00385D
+}
+.inputbox
+{
+	font-size: 9px;
+	border-right:#00385D 1px inset;
+	border-top: white 1px inset;
+	border-left: white 1px inset;
+	border-bottom: #00385D 1px inset;
+	font-family: verdana, arial;
+	color:00385D;
+}
+select{
+	font-family: verdana, arial;
+	border:none;
+	font-size: 9px;
+	background-color:#ffffff;
+	color:#00385D
+
+}
+.alertcell
+{
+	color: #CC0000;
+	font-family: verdana, arial;
+	font-size: 11px;
+	font-weight: 600;
+   	text-decoration: none;
+   	background-color:#F3F3F3
+}
+.txarea
+{
+	overflow:auto;
+	border-right:#00385D 1px inset;
+	border-top: white 1px inset;
+	border-left: white 1px inset;
+	border-bottom: #00385D 1px inset;
+	font-family: verdana, arial;
+	cursor:pointer;
+	scrollbar-3dlight-color:#CCBBBB;
+	scrollbar-arrow-color:#CCBBBB;
+	scrollbar-base-color:#00385D;
+	scrollbar-darkshadow-color:#CCBBBB;
+	scrollbar-highlight-color:#CCBBBB;
+	scrollbar-shadow-color:#CCBBBB;
+	Scrollbar-Track-Color :#FFFFFF
+
+}
+.tablehelp{}
+table.tablehelp{
+  border-right:#00385D 1px inset;
+  border-top: white 1px inset;
+  border-left: white 1px inset;
+  border-bottom: #00385D 1px inset;
+  font-family: verdana, arial;
+}
+table.tablesubhelp{
+   border-right#FFCCCC 1px outset;
+   border-top: white 1px outset;
+   border-left: white 1px outset;
+   border-bottom: #FFCCCC 1px outset;
+  	font-family: verdana, arial;
+}
+.thhelp{}
+th.thhelp{
+	font-family: verdana, arial;
+	font-size: 9px;
+	font-style: normal;
+	color: #000000;
+	background-color: #FFCCCC
+
+}
+
+.tdhelp{}
+td.tdhelp{
+	font-family: verdana, arial;
+	font-size: 9px;
+	font-style: normal;
+	color: #00385D;
+	background-color: #E1E8EE
+
+}
+
+TABLE.buttonTable {
+
+}
+
+TD.TDCmdBtnOff 
+{
+	color: #003168;
+	Filter: Chroma(Color = #ffCC00);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#AFADAE');
+	padding: 2px 2px 2px 2px;
+	tab-index: 0;
+	background-color: #6C6A6B;
+	border: outset #6C6A6B 1px;
+	font-family: tahoma;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: bold;
+	vertical-align: top;
+}
+TD.TDCmdBtnDown 
+{
+	color: #003168;
+	Filter: Chroma(Color = #ffCC00);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#AFADAE',EndColorStr='#FFFFFF');
+	padding: 2px 2px 2px 2px;
+	tab-index: 0;
+	background-color: #6C6A6B;
+	border: outset #6C6A6B 1px;
+	font-family: tahoma;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: bold;
+	vertical-align: top;
+	cursor: hand;
+}
+TD.TDCmdBtnUp 
+{
+	color: #000000;
+	Filter: Chroma(Color = #ffCC00);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#CAC9C5');
+	padding: 2px 2px 2px 2px;
+	tab-index: 0;
+	background-color: #6C6A6B;
+	border: outset #6C6A6B 1px;
+	font-family: tahoma;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: bold;
+	vertical-align: top;
+	cursor: hand;
+}
+TD.TDCommandBarBorder 
+{
+	background-color: #ffffff;
+}
+
+
+-->
+</style>
+

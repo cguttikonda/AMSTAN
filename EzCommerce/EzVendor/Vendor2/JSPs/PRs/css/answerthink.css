@@ -1,0 +1,132 @@
+.title {
+     font-weight: bold;
+     color: teal;
+     border-bottom: 1px solid teal;
+     line-height: 1.5em;
+}
+
+.smallTitle {
+     font-weight: bold;
+     color: teal;
+     border-bottom: 1px solid teal;
+     line-height: 1.5em;
+     font-size: 14px;
+     margin-bottom: 15px;
+}
+
+.greyBox {
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background: #f2f2f2; }
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+    color: #333333; }
+  .panel > :first-child {
+    margin-top: 0; }
+  .panel > :last-child {
+    margin-bottom: 0; }
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+    line-height: 1;
+    margin-bottom: 0.625em; }
+    .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
+      line-height: 1.4; }
+  .panel.callout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2284a1;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+    background: #2ba6cb;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+    .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
+      color: white; }
+    .panel.callout > :first-child {
+      margin-top: 0; }
+    .panel.callout > :last-child {
+      margin-bottom: 0; }
+    .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
+      line-height: 1;
+      margin-bottom: 0.625em; }
+      .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+        line-height: 1.4; }
+  .panel.radius {
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
+    
+    
+    /******* No - More - Tables CSS  ****/
+    			/* 
+        Document   : no-more-tables
+        Created on : 28/02/2012, 11:01:54 AM
+        Author     : Simon Elvery
+        Description:
+            Demonstration of the responsive tables method described at by Chris Coyier
+    		at http://css-tricks.com/responsive-data-tables/
+    */
+    
+    @media only screen and (max-width: 800px) {
+    	
+    	/* Force table to not be like tables anymore */
+    	#no-more-tables table, 
+    	#no-more-tables thead, 
+    	#no-more-tables tbody, 
+    	#no-more-tables th, 
+    	#no-more-tables td, 
+    	#no-more-tables tr { 
+    		display: block; 
+    	}
+    
+    	/* Hide table headers (but not display: none;, for accessibility) */
+    	#no-more-tables thead tr { 
+    		position: absolute;
+    		top: -9999px;
+    		left: -9999px;
+    	}
+    
+    	#no-more-tables tr { border: 1px solid #ccc; }
+    
+    	#no-more-tables td { 
+    		/* Behave  like a "row" */
+    		border: none;
+    		border-bottom: 1px solid #eee; 
+    		position: relative;
+    		padding-left: 50%; 
+    		white-space: normal;
+    		text-align:left;
+    	}
+    
+    	#no-more-tables td:before { 
+    		/* Now like a table header */
+    		position: absolute;
+    		/* Top/left values mimic padding */
+    		top: 6px;
+    		left: 6px;
+    		width: 45%; 
+    		padding-right: 10px; 
+    		white-space: nowrap;
+    		text-align:left;
+    		font-weight: bold;
+    	}
+    
+    	/*
+    	Label the data
+    	*/
+    	#no-more-tables td:before { content: attr(data-title); }
+    }
+
+/******* No - More - Tables CSS  ****/

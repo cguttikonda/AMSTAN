@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EzPlants>
+	<EzPlant code="PL01" sbu="BULK">
+		<Name>EZDIAGNOSIS UNIT 2,</Name>
+		
+		<Address1>Plot No: 137  138,</Address1>
+		<Address2>Industrial Area,</Address2>	
+		<Address3>Toronto,</Address3>
+		<Address4>Canada,</Address4>
+		<Address5>Pin-502320</Address5>
+		<Range>Toronto-I,</Range>
+		<Cerno>19/92</Cerno>
+		<Division>Canada</Division>
+		<Centralexice-code>AAACD7999QXM013</Centralexice-code>
+		<Collectorate>Toronto-I</Collectorate>
+		<SalesTaxNo>  </SalesTaxNo>
+		<CstNo>  </CstNo>
+		<DrugLincenceNo>  </DrugLincenceNo>		
+	</EzPlant>	
+	
+	
+	<EzPlant code="PL02" sbu="BULK">
+		<Name>EZDIAGNOSIS UNIT 2,</Name>
+		<Address1>Plot No: 137  138,</Address1>
+		<Address2>Industrial Area,</Address2>
+		<Address3>Toronto,</Address3>
+		<Address4>Canada,</Address4>
+		<Address5>Pin-502320</Address5>
+		<Range>Toronto-I,</Range>
+		<Cerno>19/92</Cerno>
+		<Division>Canada</Division>
+		<Centralexice-code>AAACD7999QXM013</Centralexice-code>
+		<Collectorate>Toronto-I</Collectorate>
+		<SalesTaxNo>  </SalesTaxNo>
+		<CstNo>  </CstNo>
+		<DrugLincenceNo>  </DrugLincenceNo>		
+	</EzPlant>
+
+	<EzPlant code="US20" sbu="FORM">
+		<Name>EZPHARMA DRUG UNIT 1,</Name>
+		<Address1>Plot No: 137  138,</Address1>
+		<Address2>Industrial Area,</Address2>
+		<Address3>Dublin,</Address3>
+		<Address4>California,</Address4>
+		<Address5>Pin-502320</Address5>
+		<Range>Toronto-I,</Range>
+		<Cerno>19/92</Cerno>
+		<Division>Canada</Division>
+		<Centralexice-code>AAACD7999QXM013</Centralexice-code>
+		<Collectorate>Toronto-I</Collectorate>
+		<SalesTaxNo>  </SalesTaxNo>
+		<CstNo>  </CstNo>
+		<DrugLincenceNo>  </DrugLincenceNo>		
+	</EzPlant>
+
+	<EzPlant code="US21" sbu="FORM">
+		<Name>EZDIAGNOSIS UNIT 2,</Name>
+		<Address1>Plot No: 137  138,</Address1>
+		<Address2>Industrial Area,</Address2>
+		<Address3>Toronto,</Address3>
+		<Address4>Canada,</Address4>
+		<Address5>Pin-502320</Address5>
+		<Range>Toronto-I,</Range>
+		<Cerno>19/92</Cerno>
+		<Division>Canada</Division>
+		<Centralexice-code>AAACD7999QXM013</Centralexice-code>
+		<Collectorate>Toronto-I</Collectorate>
+		<SalesTaxNo>  </SalesTaxNo>
+		<CstNo>  </CstNo>
+		<DrugLincenceNo>  </DrugLincenceNo>		
+	</EzPlant>
+<EzPlant code="3000" sbu="  "><Name>NewCo Pharmaceuticals</Name><Address1>San Jose</Address1><Address2>  </Address2><Address3>  </Address3><Address4>  </Address4><Address5>  </Address5><Range> </Range><Cerno> </Cerno><Division> </Division><Centralexice-code> </Centralexice-code><Collectorate> </Collectorate></EzPlant><EzPlant code="3100" sbu="  "><Name>NewCo Pharmaceuticals</Name><Address1>Austin</Address1><Address2>  </Address2><Address3>  </Address3><Address4>  </Address4><Address5>  </Address5><Range> </Range><Cerno> </Cerno><Division> </Division><Centralexice-code> </Centralexice-code><Collectorate> </Collectorate></EzPlant></EzPlants>
