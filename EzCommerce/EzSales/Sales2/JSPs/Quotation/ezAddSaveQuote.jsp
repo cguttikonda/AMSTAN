@@ -28,6 +28,7 @@
 	ezc.ezcommon.EzLog4j.log("This message is to check the version control::::","I");
 	System.out.println("Addding a new line to the changes");
 	System.out.println("Addding a new line to the changes by different user of the team");
+System.out.println("This file has still more bug fixes");
 	String status = setSalVal.getStatus(); 
 	String status = setSalVal.getStatus();
 
