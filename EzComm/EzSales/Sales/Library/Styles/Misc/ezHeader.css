@@ -1,0 +1,36 @@
+
+
+.suggestionsBoxHE {
+position: absolute;
+left: 250px;
+top: 110px;
+margin: 0px 0px 0px 0px;
+width: 400px;
+height: 200px;
+overflow:auto;
+background-color: #DCDCDC;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border: 2px solid #CCC;
+color: #000;
+}
+.suggestionListHE {
+margin: 0px;
+padding: 0px;
+}
+.suggestionListHE li {
+
+margin: 0px 0px 3px 0px;
+padding: 3px;
+cursor: pointer;
+}
+
+.suggestionListHE li:hover {
+background-color: #555757;
+color: #50b4b6; /*8B0000*/
+}
+
+.search_imgHS{
+background:#ffffff url(../../Library/images/btn-search.png) no-repeat right;
+text-align:left;
+}

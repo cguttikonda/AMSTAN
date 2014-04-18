@@ -1,0 +1,21 @@
+#main {
+		width:940px;
+		margin:0 auto;
+		background:#99c;
+	}
+	
+#mainInner {
+		float:right;
+		width:680px;
+		padding:10px;
+		background:#fff;
+	}
+
+#sidebar1 {
+		float:left;
+		width:200px;
+		padding:10px;
+		background:#fff;
+	}
+
+

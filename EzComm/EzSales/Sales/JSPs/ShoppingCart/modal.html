@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Create an Account </title>
+	</head>
+	<body>
+		<FORM action="http://google.com" method="post">
+			<div class="mainbody">
+					<!-- Start of main content -->
+					<div class="maincon">
+						<div class="txt">
+							<h2 class="subtitle2">Email Me Form Signup</h2>
+						</div>
+						<div align="center" class="formArea">
+							<form id="sign_up_form" class="sign_up_form" action="builder/account/sign_up" method="post">
+							<p align=center>
+								<label>Username:</label>
+								<input type="text" id="Username" name="Username" class="validate[required,length[4,30],ajax[ajaxUsername]]" />
+							</p>
+							<br>
+							<p align=center>
+								<label>Password:</label>
+								<input type="password" id="Password" name="Password" class="validate[required,length[4,30]]" />
+							</p>
+							<p align=center>
+								<label>Retype Password:</label>
+								<input type="password" id="retypePassword" name="retypePassword" class="validate[required,length[4,30],confirm[Password,2]]" />
+							</p>
+							<p align=center>
+								<label>Your Email:</label>
+								<input type="text" id="ContactEmail" name="ContactEmail" class="validate[required,custom[email],ajax[ajaxEmail]]" />
+							</p>
+
+
+							</form>
+						</div>
+
+			</div>
+
+ </FORM>
+
+
+		<div style="margin-top:20px; text-align:center;">
+
+			<button onclick="modal().close()">Submit and Close</button>
+		</div>
+	</body>
+</html>

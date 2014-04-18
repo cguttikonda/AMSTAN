@@ -1,0 +1,82 @@
+BODY{margin:0px 0px 0px 0px; font-weight:normal; background:url(../i/bg.jpg); background-color:#000000; background-repeat:repeat-x ! important}
+
+.table{background-color:#fff}
+.td{background-color:#999}
+
+
+.bg_box{background:url(../i/mid.jpg); background-repeat:repeat-y ! important}
+.bg_boxtop{background:url(../i/top.jpg); background-position:center; background-repeat:no-repeat}
+.bg_boxbottom{background:url(../i/bottom.jpg); background-position:center; background-repeat:no-repeat}
+.border1{border:1px solid #ccc;}
+
+a:link, a:active, a:visited{font-family: Arial; color:#6C6969; font-size:10px; font-weight:normal; text-decoration:none}
+a:hover{font-family: Arial; color:#6C6969; text-decoration:underline; font-size:10px; font-weight:normal}
+
+a.link:link, a.link:active, a.link:visited{font-family: Arial; color:#ffffff; font-size:11px; font-weight:normal; text-decoration:none}
+a.link:hover{font-family: Arial; color:#FFFfff; text-decoration:underline; font-size:11px; font-weight:normal}
+
+a.link8:link, a.link8:active, a.link8:visited{font-family: Arial; color:#006666; font-size:11px; font-weight:bold; text-decoration:none}
+a.link8:hover{font-family: Arial; color:#006666; text-decoration:underline; font-size:11px; font-weight:bold}
+
+a.link9:link, a.link9:active, a.link9:visited{font-family: Tahoma; color:#000; font-size:11px; font-weight:normal; text-decoration:none}
+a.link9:hover{font-family: Tahoma; color:#000; text-decoration:underline; font-size:11px; font-weight:normal}
+
+
+.black36{font-size:36px; color:#000000; font-weight:normal; font-family:Arial}
+.black11{font-size:11px; color:#000000; font-weight:bold; font-family:Arial}
+.black14{font-size:14px; color:#000000; font-weight:bold; font-family:Arial}
+.blue{font-size:11px; color:#006666; font-weight:normal; font-family:Arial}
+.blue11{font-size:11px; color:#006666; font-weight:bold; font-family:Arial}
+.px11{font-family:arial; font-size:12px; color:#000000; font-size-adjust: none; font-weight:normal}
+.px11w{font-family:arial; font-size:11px; color:#ffffff; font-size-adjust: none; font-weight:normal }
+
+H1{font-family: Arial; color:#000; text-decoration:underline; font-size:22px; font-weight:bold}
+H2{font-family:Arial; color:#fff; text-decoration:underline; font-size:18px; font-weight:BOLD}
+
+a.button, input.button, button.button, p.back-link, a.f-left, .box-title a {
+	font-size: 1em;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	font-weight: bold;
+	padding: .4em 1.25em;
+	color: #4c4c4c;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2), inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#d4d4d4));
+	background: -webkit-linear-gradient(#f6f6f6, #d4d4d4);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #d4d4d4);
+	background-image: -moz-gradient(top, #f6f6f6, #d4d4d4);
+	border: 1px solid #a1a1a1;
+
+}
+
+a.button:hover, input.button:hover, button.button:hover, p.back-link:hover, a.f-left:hover, .box-title a:hover {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#ececec));
+	background: -webkit-linear-gradient(#f6f6f6, #ececec);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #ececec);
+	background-image: -moz-gradient(top, #f6f6f6, #ececec);
+}
+
+a.button:active, input.button:active, button.button:active, p.back-link:active, a.f-left:active, .box-title a:active {
+/*	top: 1px;*/
+	background: #ececec;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#f6f6f6));
+	background: -webkit-linear-gradient(#ececec, #f6f6f6);
+	background-image: -moz-linear-gradient(top, #ececec, #f6f6f6);
+	background-image: -moz-gradient(top, #ececec, #f6f6f6);
+	-webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 0 0 #ffffff;
+	-moz-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 0 0 #ffffff;
+	box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.4), 0 1px 0 0 #ffffff;
+}
+
+
+.arrow { background: white url('../i/arrow.png') right center no-repeat; }

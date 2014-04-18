@@ -1,0 +1,45 @@
+if ($("#passwordInput").val() == '')
+    {
+        alert('missing password field');
+        return false;
+    }
+    
+    
+    
+    $("#generalForm").validate({
+    		rules: {
+    			carrierId: "required",
+    			},
+    		messages: {
+    			carrierId: "<font color=red>Please enter carrierId</font>",
+    			}
+	});
+	
+	
+	details: {
+	      required: "#other:checked"
+    }
+    
+    
+    
+    
+    
+    <script>
+    
+    function yesNo() {
+    
+    var yesNoValue = document.generalForm.useMyCarrier.value;
+    alert(yesNoValue);
+    
+    if(yesNoValue=='YES'){
+    alert(yesNoValue+"inside if");
+    
+    if ($("#carrierId").val() == '')
+        {
+            alert('missing Carrier field');
+            return false;
+        }
+    
+    }
+    }
+</script>
