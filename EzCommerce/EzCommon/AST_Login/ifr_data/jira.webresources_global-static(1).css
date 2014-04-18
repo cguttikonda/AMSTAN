@@ -1,0 +1,102 @@
+.operations {
+	display: none;
+}
+.ops {
+	display: none;
+}
+.workflowactions {
+	display: none;
+}
+#header {
+	display: none;
+}
+.footer {
+	display: none;
+}
+.command-bar {
+	display: none;
+}
+.previous-view {
+	display: none;
+}
+#addcomment {
+	display: none;
+}
+.stalker-placeholder {
+	display: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-size: 11pt; background-color: rgb(255, 255, 255);
+}
+#main-content .column {
+	float: none;
+}
+.type-aa #primary {
+	width: 95%;
+}
+.type-aa #secondary {
+	width: 95%;
+}
+.type-ab #primary {
+	width: 95%;
+}
+.type-ab #secondary {
+	width: 60%;
+}
+.type-ba #primary {
+	width: 60%;
+}
+.type-ba #secondary {
+	width: 95%;
+}
+#stalker .btm {
+	border: currentColor;
+}
+.stalker .ops-cont {
+	border: currentColor;
+}
+.nl .active-area {
+	border: currentColor;
+}
+#stalker {
+	top: 0px !important; position: relative !important;
+}
+.detached#stalker {
+	top: 0px !important; position: relative !important;
+}
+.detached#stalker .item-header .avatar img {
+	display: block;
+}
+.detached#stalker .item-header {
+	background-color: rgb(255, 255, 255);
+}
+.type-textfield {
+	overflow: visible;
+}
+.flooded {
+	overflow: visible;
+}
+.active-area {
+	overflow: visible;
+}
+.action-body {
+	overflow: visible;
+}
+.mod-header {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 2px; border-bottom-style: solid; background-image: none; background-color: rgb(255, 255, 255);
+}
+.hideOnPrint {
+	visibility: hidden;
+}
+ul.labels {
+	font-size: 1em;
+}
+ul.labels li .lozenge {
+	border: 1px solid rgb(102, 102, 102); color: rgb(0, 0, 0);
+}
+.hidden.pl-tab {
+	border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; display: block !important;
+}

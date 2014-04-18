@@ -1,0 +1,2016 @@
+.clear {
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+form.aui .hidden {
+	display: none;
+}
+form.aui .hidden.field-group {
+	display: none;
+}
+form.aui fieldset.hidden {
+	display: none;
+}
+.assistive {
+	left: -20000px; top: 0px; width: 4000px; height: 0px; overflow: hidden; position: absolute;
+}
+legend.assistive span {
+	left: -20000px; top: 0px; width: 4000px; height: 0px; overflow: hidden; position: absolute;
+}
+#firebug-warning {
+	background: rgb(255, 255, 221); margin: 0px 0px 0.2em; border: 1px solid rgb(247, 223, 146); text-align: center; color: rgb(51, 51, 51);
+}
+#firebug-warning p {
+	margin: 0px 1em; padding: 0.3em;
+}
+#firebug-warning a.close {
+	background: url("images/icons/aui-icon-close.png") no-repeat 0px 0px; margin: -1.5em 0.4em 0px 0px; width: 16px; height: 16px; line-height: 12px; text-indent: -9999px; float: right; display: block; cursor: pointer;
+}
+.aui-blanket {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 2500; opacity: 0.5;
+}
+.aui-dialog-shadow-parent {
+	left: 50%; top: 50%; overflow: hidden; position: fixed;
+}
+.aui-popup {
+	left: 50%; top: 50%; position: fixed; z-index: 3000;
+}
+.aui-dialog {
+	border: 1px solid rgb(102, 102, 102); overflow: hidden; font-size: 14px;
+}
+.aui-dialog h2.dialog-title {
+	background: rgb(240, 240, 240); margin: 0px; padding: 0px 1em; height: 43px; color: rgb(102, 102, 102); line-height: 43px; overflow: hidden; font-size: 1.5em; position: relative;
+}
+.aui-dialog .dialog-page-menu {
+	background: rgb(255, 255, 255); list-style: none; margin: 0px 1.17em 0px 0px; padding: 10px 0px 0px; width: 25%; height: 100%; border-right-color: rgb(240, 240, 240); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.aui-dialog .dialog-page-menu li.page-menu-item {
+	margin: 0px; padding: 0px;
+}
+.aui-dialog .dialog-page-menu li.selected.page-menu-item {
+	background: rgb(102, 153, 204); color: rgb(255, 255, 255);
+}
+.aui-dialog .dialog-page-menu li.selected.page-menu-item button.item-button {
+	color: rgb(255, 255, 255); font-weight: 800;
+}
+.aui-dialog .dialog-page-menu li.page-menu-item button.item-button {
+	padding: 0.4em 1.2em; border: currentColor; width: 100%; text-align: left; color: rgb(102, 102, 102); font-family: "segoe ui",helvetica,arial,sans-serif; font-size: 1em;
+}
+.aui-dialog .dialog-panel-body {
+	padding: 10px; overflow: auto;
+}
+.aui-dialog .dialog-button-panel {
+	background: rgb(255, 255, 255); padding: 10px 0px; width: 100%; height: 23px; text-align: right; overflow: hidden; clear: both; border-top-color: rgb(240, 240, 240); border-top-width: 1px; border-top-style: solid;
+}
+.aui-dialog .dialog-button-panel button.button-panel-button {
+	font-size: 1em; margin-top: 2px; margin-right: 1.65em;
+}
+.aui-dialog .dialog-button-panel button.left.button-panel-button {
+	margin: 0px 0px 0px 0.5em; float: left;
+}
+.aui-dialog .dialog-button-panel a.button-panel-link {
+	font-size: 1em; margin-top: 2px; margin-right: 1.65em;
+}
+.aui-dialog .dialog-blanket {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; position: absolute; opacity: 0.2;
+}
+.aui-dd-parent {
+	position: relative;
+}
+.aui-dd-parent span a.aui-dd-trigger {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat -13px 0px; padding: 0px; border: currentColor; width: 13px; height: 13px; color: rgb(0, 0, 0); text-indent: -9999px; display: block;
+}
+.aui-dd-parent a.aui-dd-trigger {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat -13px 0px; padding: 0px; border: currentColor; width: 13px; height: 13px; color: rgb(0, 0, 0); text-indent: -9999px; display: block;
+}
+.aui-dd-parent a.active.aui-dd-trigger {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat -26px 0px; border: currentColor; color: rgb(0, 0, 0);
+}
+.aui-dd-parent a.aui-dd-trigger:hover {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat -26px 0px; border: currentColor; color: rgb(0, 0, 0);
+}
+.aui-dd-parent a.aui-dd-trigger:active {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat -26px 0px; border: currentColor; color: rgb(0, 0, 0);
+}
+.aui-dd-parent a.aui-dd-trigger:focus {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat -26px 0px; border: currentColor; color: rgb(0, 0, 0);
+}
+.aui-dd-parent span a.aui-dd-trigger {
+	top: 8px; right: 5px; position: absolute;
+}
+.aui-dd-parent span a.unstyled.aui-dd-trigger {
+	border: currentColor; width: auto; height: auto; text-indent: 0px; display: block;
+}
+.aui-dd-parent a.unstyled.aui-dd-trigger {
+	border: currentColor; width: auto; height: auto; text-indent: 0px; display: block;
+}
+.aui-dd-parent a.active.aui-dd-trigger-unstyled {
+	border: currentColor;
+}
+.aui-dd-parent a.aui-dd-trigger-unstyled:hover {
+	border: currentColor;
+}
+.aui-dd-parent a.aui-dd-trigger-unstyled:active {
+	border: currentColor;
+}
+.aui-dd-parent a.aui-dd-trigger-unstyled:focus {
+	border: currentColor;
+}
+.aui-dd-parent span a.aui-dd-trigger-unstyled {
+	top: auto; right: auto; position: absolute;
+}
+.aui-dropdown {
+	list-style-type: none;
+}
+.aui-dd-parent .aui-dropdown {
+	background: rgb(255, 255, 255); padding: 4px 0px; border: 1px solid rgb(106, 142, 179); color: rgb(0, 0, 0); margin-top: -1px; position: absolute; z-index: 2003;
+}
+.aui-dropdown {
+	background: rgb(255, 255, 255); padding: 4px 0px; border: 1px solid rgb(106, 142, 179); color: rgb(0, 0, 0); margin-top: -1px; position: absolute; z-index: 2003;
+}
+.aui-dd-parent .aui-shadow-parent {
+	background: rgb(255, 255, 255); padding: 4px 0px; border: 1px solid rgb(106, 142, 179); color: rgb(0, 0, 0); margin-top: -1px; position: absolute; z-index: 2003;
+}
+.aui-dd-parent .aui-dropdown-left {
+	left: 0px;
+}
+.aui-dd-parent .aui-dropdown-right {
+	right: 0px;
+}
+.aui-dd-parent .aui-shadow {
+	right: 5px;
+}
+.aui-dd-parent .aui-dropdown li.dropdown-item {
+	background: rgb(255, 255, 255); margin: 0px; color: rgb(0, 0, 0); float: none; display: block; position: static;
+}
+.aui-dropdown li.dropdown-item {
+	background: rgb(255, 255, 255); margin: 0px; color: rgb(0, 0, 0); float: none; display: block; position: static;
+}
+.aui-dd-parent .aui-dropdown a.item-link {
+	background: rgb(255, 255, 255); width: auto; height: auto; color: rgb(0, 51, 102); text-indent: 0px; float: none; display: inline-block; white-space: nowrap; position: static;
+}
+.aui-dropdown a.item-link {
+	background: rgb(255, 255, 255); width: auto; height: auto; color: rgb(0, 51, 102); text-indent: 0px; float: none; display: inline-block; white-space: nowrap; position: static;
+}
+.aui-dd-parent .aui-dropdown a.item-link:link {
+	background: rgb(255, 255, 255); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dd-parent .aui-dropdown a.item-link:visited {
+	background: rgb(255, 255, 255); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dropdown a.item-link:link {
+	background: rgb(255, 255, 255); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dropdown a.item-link:visited {
+	background: rgb(255, 255, 255); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dd-parent .aui-dropdown li.active.dropdown-item a.item-link {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dd-parent .aui-dropdown a.item-link:hover {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dd-parent .aui-dropdown a.item-link:active {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dd-parent .aui-dropdown a.item-link:focus {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dropdown a.item-link:hover {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dropdown a.item-link:active {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dropdown a.item-link:focus {
+	background: rgb(242, 242, 242); padding: 0.3em 0.5em; color: rgb(0, 51, 102);
+}
+.aui-dd-parent .aui-dropdown li.dropdown-item a.item-link span.icon {
+	display: inline-block;
+}
+div.shim {
+	position: absolute;
+}
+form.aui {
+	margin: 0px 0px 1em; color: rgb(51, 51, 51); line-height: 1.4; font-family: arial,tahoma,verdana,sans-serif; font-size: 13px; position: relative;
+}
+form.aui textarea {
+	color: rgb(0, 0, 0); font-family: arial,tahoma,verdana,sans-serif; font-size: 13px;
+}
+form.aui select {
+	color: rgb(0, 0, 0); font-family: arial,tahoma,verdana,sans-serif; font-size: 13px;
+}
+form.aui optgroup {
+	color: rgb(0, 0, 0); font-family: arial,tahoma,verdana,sans-serif; font-size: 13px;
+}
+form.aui option {
+	color: rgb(0, 0, 0); font-family: arial,tahoma,verdana,sans-serif; font-size: 13px;
+}
+form.aui input.text {
+	color: rgb(0, 0, 0); font-family: arial,tahoma,verdana,sans-serif; font-size: 13px;
+}
+form.aui pre.aui-form {
+	padding: 15px; border: 1px solid rgb(221, 221, 221); font-family: monospace; font-size: 13px; overflow-x: auto; overflow-y: visible; background-color: rgb(248, 248, 248);
+}
+form.aui img.aui-form {
+	border: currentColor;
+}
+form.aui a img.aui-form {
+	border: currentColor;
+}
+form.aui fieldset {
+	border: currentColor;
+}
+form.aui span.aui-form {
+	margin-right: 0.25em;
+}
+form.aui p {
+	padding: 5px 0px; margin-bottom: 5px;
+}
+form.aui fieldset {
+	border: 0px currentColor; padding-bottom: 5px; margin-bottom: 5px; display: block; position: relative;
+}
+form.aui input {
+	padding: 2px; margin-right: 5px;
+}
+form.aui select {
+	padding: 2px; margin-right: 5px;
+}
+form.aui select {
+	padding: 1px;
+}
+form.aui option {
+	padding: 0px 1em;
+}
+form.aui textarea {
+	padding: 1px 2px; overflow: auto;
+}
+form.aui input.button {
+	margin: 10px 10px 0px 0px; padding: 0px 0.5em; line-height: 1.2;
+}
+form.aui button {
+	margin: 10px 10px 0px 0px; padding: 0px 0.5em; line-height: 1.2;
+}
+form.aui .buttons a.cancel {
+	margin: 10px 10px 0px 0px; line-height: 1.2;
+}
+form.aui button {
+	padding: 0.1em 0.5em 0.5em;
+}
+form.aui div.error {
+	color: rgb(204, 0, 0); font-weight: bold;
+}
+form.aui div.description {
+	font-size: 11px;
+}
+form.aui .field-value {
+	color: rgb(0, 0, 0); line-height: 1; padding-top: 4px; font-weight: bold; display: inline-block;
+}
+form.aui h2 {
+	margin: 10px 0px; color: rgb(34, 34, 34); clear: both; font-size: 16px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+form.aui h3 {
+	margin: 10px 0px; color: rgb(34, 34, 34); clear: both; font-size: 16px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+form.aui h3 {
+	font-size: 14px;
+}
+form.unsectioned.aui h2 {
+	border: currentColor;
+}
+form.unsectioned.aui h3 {
+	border: currentColor;
+}
+form.aui legend {
+	display: none;
+}
+form.aui legend span {
+	left: 0px; top: 3px; width: 130px; text-align: right; color: rgb(51, 51, 51); line-height: 1; display: block; white-space: normal; position: absolute;
+}
+form.aui .field-group {
+	padding: 0px 0px 5px 140px; clear: both; margin-bottom: 5px; display: block; min-height: 1.6em;
+}
+form.aui :last-child.field-group {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+form.aui fieldset fieldset:last-child {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+form.aui .field-group label {
+	left: -140px; width: 130px; text-align: right; line-height: 1; padding-top: 4px; margin-right: -130px; float: left; display: block; position: relative;
+}
+form.aui div.matrix {
+	width: 780px; padding-top: 0px;
+}
+form.aui div.matrix div.checkbox {
+	width: 250px; clear: none; float: left;
+}
+form.aui div.matrix div.radio {
+	width: 250px; clear: none; float: left;
+}
+form.aui .text {
+	width: 250px;
+}
+form.aui .textarea {
+	width: 250px;
+}
+form.aui .select {
+	width: 250px;
+}
+form.aui .short-field {
+	width: 75px;
+}
+form.aui .medium-field {
+	width: 165px;
+}
+form.aui .long-field {
+	width: 500px;
+}
+form.aui .multi-select {
+	min-width: 250px;
+}
+form.aui .multi-select optgroup {
+	color: rgb(153, 153, 153); font-style: normal; font-weight: normal; background-color: rgb(248, 248, 248);
+}
+form.aui .multi-select optgroup option {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+form.aui .date-select legend {
+	display: block;
+}
+form.aui .date-select legend span {
+	left: 0px;
+}
+form.aui .date-select .field-group label {
+	display: none;
+}
+form.aui .buttons-container {
+	overflow: auto; clear: both; margin-bottom: 5px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; min-height: 2.7em;
+}
+form.unsectioned.aui .buttons-container {
+	border: currentColor;
+}
+form.aui .buttons {
+	padding: 0px 0px 5px 140px;
+}
+form.aui .right.buttons-container .buttons {
+	padding: 0px 5px 5px 0px; width: auto; clear: both; float: right;
+}
+form.aui .left.buttons-container .buttons {
+	padding: 0px 5px 5px 0px;
+}
+form.aui div.radio input.radio {
+	border: currentColor; width: 15px; margin-top: 2px; float: left;
+}
+form.aui div.checkbox input.checkbox {
+	border: currentColor; width: 15px; margin-top: 2px; float: left;
+}
+form.aui .group {
+	padding: 0px 0px 5px; clear: both; margin-bottom: 5px; display: block; position: relative; min-height: 1.6em;
+}
+form.aui .group .field-value {
+	line-height: inherit; padding-top: 0px; margin-right: 0.25em; float: left; min-width: 2.5em;
+}
+form.aui .group .checked.field-value {
+	color: rgb(102, 153, 51);
+}
+form.aui .group legend {
+	display: block;
+}
+form.aui div.checkbox {
+	padding: 0px 0px 5px 140px;
+}
+form.aui div.radio {
+	padding: 0px 0px 5px 140px;
+}
+form.aui .group label {
+	margin: 0px; left: 0px; width: auto; float: none; display: inline;
+}
+form.aui div.radio label {
+	margin: 0px; left: 0px; width: auto; float: none; display: inline;
+}
+form.aui div.checkbox label {
+	margin: 0px; left: 0px; width: auto; float: none; display: inline;
+}
+form.aui div.radio .error {
+	margin-left: 19px;
+}
+form.aui div.checkbox .error {
+	margin-left: 19px;
+}
+form.aui div.radio .description {
+	clear: both; margin-left: 19px;
+}
+form.aui div.checkbox .description {
+	clear: both; margin-left: 19px;
+}
+form.long-label.aui .field-group {
+	padding-left: 250px;
+}
+form.long-label.aui .group {
+	padding-left: 250px;
+}
+form.long-label.aui .buttons {
+	padding-left: 250px;
+}
+form.long-label.aui .group label {
+	padding: 0px 0px 5px;
+}
+form.long-label.aui .group .field-group {
+	padding: 0px 0px 5px;
+}
+form.long-label.aui div.checkbox {
+	padding: 0px 0px 5px;
+}
+form.long-label.aui div.radio {
+	padding: 0px 0px 5px;
+}
+form.long-label.aui .group label {
+	left: -200px; width: 190px; margin-right: -190px;
+}
+form.long-label.aui .field-group label {
+	left: -200px; width: 190px; margin-right: -190px;
+}
+form.long-label.aui legend span {
+	left: 110px;
+}
+form.top-label.aui fieldset {
+	margin-bottom: 0px;
+}
+form.top-label.aui .field-group {
+	padding-left: 0px;
+}
+form.top-label.aui .field-group label {
+	margin: 0px 0px 2px; left: 0px; width: auto; text-align: left; float: none;
+}
+form.top-label.aui .group {
+	padding-top: 0.5em; padding-left: 0px;
+}
+form.top-label.aui div.checkbox {
+	padding: 0px 0px 5px;
+}
+form.top-label.aui div.radio {
+	padding: 0px 0px 5px;
+}
+form.top-label.aui .group legend span {
+	left: 0px; top: 0px; width: auto; text-align: left; position: relative;
+}
+form.top-label.aui .date-select legend span {
+	left: 0px; top: 0px; width: auto; text-align: left; position: relative;
+}
+form.top-label.aui .date-select label {
+	display: none;
+}
+form.top-label.aui .buttons {
+	padding: 0px 0px 5px;
+}
+form.aui .inline {
+	padding-bottom: 0px;
+}
+form.aui .inline label {
+	font-weight: bold;
+}
+form.aui .inline .aui-icon {
+	margin-right: 3px;
+}
+form.aui span.content {
+	left: -9999px; top: -9999px; position: absolute;
+}
+.aui-icon {
+	background: url("images/icons/aui-icon-tools.gif") no-repeat 0px 0px; padding: 0px; border: currentColor; width: 13px; height: 13px; text-indent: -9999px; display: block;
+}
+.icon-move {
+	cursor: move;
+}
+.icon-maximize {
+	background-position: -52px 0px;
+}
+.icon-minimize {
+	background-position: -39px 0px;
+}
+.icon-minimize-d {
+	background-position: -39px -13px;
+}
+form.aui .aui-icon {
+	margin: 0px 1px; width: 16px; height: 16px; overflow: hidden; vertical-align: middle; display: inline-block; background-image: url("images/icons/aui-icon-forms.gif"); background-repeat: no-repeat;
+}
+form.aui .icon-date {
+	background-position: 0px -20px;
+}
+form.aui .icon-range {
+	background-position: 0px -40px;
+}
+form.aui .icon-help {
+	background-position: 0px -60px;
+}
+form.aui .icon-required {
+	background-position: 0px -80px; width: 8px; height: 13px; vertical-align: top;
+}
+form.aui legend span.icon-required {
+	left: auto; top: auto; position: relative;
+}
+form.aui .icon-users {
+	background-position: 0px -100px;
+}
+form.aui .icon-inline-help {
+	background-position: 0px -60px; cursor: help;
+}
+.aui-icon-new {
+	background: url("images/icons/aui-message-icon-sprite.png") no-repeat 0px 0px; padding: 0px; border: currentColor; width: 14px; height: 14px; text-indent: -9999px; display: inline-block;
+}
+.icon-info.aui-icon-new {
+	background-position: -96px 0px;
+}
+.aui-inline-dialog {
+	font-size: 13px; display: none; position: absolute; z-index: 100;
+}
+.aui-inline-dialog .contents {
+	background: white; border-radius: 3px; border: 1px solid rgb(187, 187, 187); width: 300px; overflow: hidden; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.aui-inline-dialog .contents form.aui {
+	margin-bottom: 0px;
+}
+.aui-inline-dialog .contents .submit {
+	margin: 0px; padding: 0px; text-align: right;
+}
+.aui-inline-dialog .arrow {
+	top: -7px; width: 16px; height: 16px; position: absolute;
+}
+#inline-dialog-shim {
+	display: none;
+}
+.aui-message {
+	background: rgb(240, 240, 240); margin: 0px 0px 1em; padding: 1em 1em 1em 35px; border-radius: 5px; border: 1px solid rgb(187, 187, 187); color: rgb(51, 51, 51); position: relative; min-height: 1em; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.shadowed.aui-message {
+	box-shadow: 0px 1px 2px #ccc; -moz-box-shadow: 0 1px 2px #ccc; -webkit-box-shadow: 0 1px 2px #ccc;
+}
+.aui-popup .closeable.aui-message {
+	z-index: 4000;
+}
+.aui-dialog .closeable.aui-message {
+	z-index: 4000;
+}
+.aui-message .svg-icon {
+	left: 10px; top: 10px; position: absolute;
+}
+.closeable.aui-message .close.svg-icon {
+	left: auto; top: 6px; right: 6px; position: absolute; cursor: pointer;
+}
+.error.aui-message {
+	background: rgb(255, 231, 231); border-color: rgb(223, 152, 152);
+}
+.warning.aui-message {
+	background: rgb(255, 255, 221); border-color: rgb(247, 223, 146);
+}
+.info.aui-message {
+	background: rgb(224, 239, 255); border-color: rgb(158, 182, 212);
+}
+.success.aui-message {
+	background: rgb(221, 250, 222); border-color: rgb(147, 196, 159);
+}
+.hint.aui-message {
+	background: rgb(223, 248, 251); border-color: rgb(147, 187, 191);
+}
+.aui-message p.title {
+	font-weight: bold;
+}
+.aui-message p {
+	margin: 0.5em 0px 0px;
+}
+.aui-message p:first-child {
+	margin: 0px;
+}
+.aui-message ul {
+	margin: 0.5em 0px 0px; padding: 0px 0px 0px 1em;
+}
+.aui-message ul:first-child {
+	margin: 0px;
+}
+.aui-message ul li {
+	margin: 0px; padding: 0px;
+}
+form.aui .aui-message .aui-icon {
+	padding: 0px; border: currentColor; left: 10px; top: 0.9em; width: 14px; height: 14px; text-indent: -9999px; display: block; position: absolute; background-image: url("images/icons/aui-message-icon-sprite.png"); background-repeat: no-repeat;
+}
+.aui-message .aui-icon {
+	padding: 0px; border: currentColor; left: 10px; top: 0.9em; width: 14px; height: 14px; text-indent: -9999px; display: block; position: absolute; background-image: url("images/icons/aui-message-icon-sprite.png"); background-repeat: no-repeat;
+}
+.closeable.aui-message .icon-close.aui-icon {
+	left: auto; top: 6px; right: 6px; position: absolute; cursor: pointer;
+}
+.aui-message .icon-close {
+	
+}
+.aui-message .icon-error {
+	background-position: -24px 0px;
+}
+.aui-message .icon-generic {
+	background-position: -48px 0px;
+}
+.aui-message .icon-hint {
+	background-position: -72px 0px;
+}
+.aui-message .icon-info {
+	background-position: -96px 0px;
+}
+.aui-message .icon-success {
+	background-position: -120px 0px;
+}
+.aui-message .icon-warning {
+	background-position: -144px 0px;
+}
+table.aui {
+	margin: 0px 0px 1em; width: 100%; border-collapse: collapse; min-width: 45em;
+}
+table.aui table.aui {
+	margin: 0px;
+}
+table.aui > caption {
+	padding: 0.5em;
+}
+table.aui > thead > tr {
+	background: rgb(255, 255, 255); color: rgb(17, 17, 17);
+}
+table.aui > tbody > tr {
+	background: rgb(255, 255, 255); color: rgb(17, 17, 17);
+}
+table.aui > tfoot > tr {
+	background: rgb(255, 255, 255); color: rgb(17, 17, 17);
+}
+table.aui > thead > tr.zebra {
+	background: rgb(250, 250, 250); color: rgb(17, 17, 17);
+}
+table.aui > tbody > tr.zebra {
+	background: rgb(250, 250, 250); color: rgb(17, 17, 17);
+}
+table.aui > tfoot > tr.zebra {
+	background: rgb(250, 250, 250); color: rgb(17, 17, 17);
+}
+table.aui > thead > tr.zebra > th {
+	background: rgb(238, 238, 238); color: rgb(17, 17, 17);
+}
+table.aui > tbody > tr.zebra > th {
+	background: rgb(238, 238, 238); color: rgb(17, 17, 17);
+}
+table.aui > tbody > tr > th {
+	background: rgb(250, 250, 250); color: rgb(17, 17, 17);
+}
+table.aui > thead > tr > th {
+	padding: 0.5em 0.4em 0.5em 0.6em; text-align: left;
+}
+table.aui > tbody > tr > th {
+	padding: 0.5em 0.4em 0.5em 0.6em; text-align: left;
+}
+table.aui > thead > tr > td {
+	padding: 0.5em 0.4em 0.5em 0.6em; text-align: left;
+}
+table.aui > tbody > tr > td {
+	padding: 0.5em 0.4em 0.5em 0.6em; text-align: left;
+}
+table.aui > tfoot > tr > td {
+	padding: 0.5em 0.4em 0.5em 0.6em; text-align: left;
+}
+table.aui > thead {
+	border-bottom-color: rgb(210, 210, 210); border-bottom-width: 2px; border-bottom-style: solid;
+}
+table.aui > thead > tr > th {
+	background: rgb(240, 240, 240); color: rgb(51, 51, 51);
+}
+table.aui > tbody > tr:first-child > td {
+	border-top-color: rgb(210, 210, 210); border-top-width: 2px; border-top-style: solid;
+}
+table.aui > tfoot > tr:first-child > td {
+	border-top-color: rgb(210, 210, 210); border-top-width: 2px; border-top-style: solid;
+}
+table.aui > thead > tr > th > ul.menu {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+table.aui > tbody > tr > th > ul.menu {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+table.aui > tbody > tr > td > ul.menu {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+table.aui > tfoot > tr > td > ul.menu {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+table.aui > thead > tr > th > ul.menu > li {
+	margin: 0px 0.5em 0px 0px; width: auto; float: left;
+}
+table.aui > tbody > tr > th > ul.menu > li {
+	margin: 0px 0.5em 0px 0px; width: auto; float: left;
+}
+table.aui > tbody > tr > td > ul.menu > li {
+	margin: 0px 0.5em 0px 0px; width: auto; float: left;
+}
+table.aui > tfoot > tr > td > ul.menu > li {
+	margin: 0px 0.5em 0px 0px; width: auto; float: left;
+}
+.aui-tabs ul.tabs-menu {
+	margin: 0px; padding: 0px; list-style-type: none; position: relative; z-index: 5;
+}
+.aui-tabs ul.tabs-menu li.menu-item {
+	margin: 0px; padding: 0px;
+}
+.aui-tabs ul.tabs-menu li.menu-item a {
+	background: rgb(255, 255, 255); color: rgb(83, 83, 83); text-decoration: none; display: block;
+}
+.aui-tabs ul.tabs-menu li.menu-item strong {
+	padding: 0.4em 0.6em 0.2em; overflow: hidden; display: block;
+}
+.aui-tabs ul.tabs-menu li.active-tab.menu-item {
+	background: rgb(255, 255, 255);
+}
+.aui-tabs ul.tabs-menu li.active-tab.menu-item strong {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); cursor: default;
+}
+.aui-tabs ul.tabs-menu li.active-tab.menu-item a {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+.aui-tabs .tabs-pane {
+	padding: 1em; border-top-color: rgb(187, 187, 187); border-top-width: 1px; border-top-style: solid; display: none;
+}
+.aui-tabs .active-pane.tabs-pane {
+	display: block;
+}
+.vertical-tabs.aui-tabs ul.tabs-menu {
+	width: 11em; float: left;
+}
+.vertical-tabs.aui-tabs ul.tabs-menu li.menu-item {
+	border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: rgb(187, 187, 187) currentColor rgb(187, 187, 187) rgb(187, 187, 187); margin: -1px 0px 0px;
+}
+.vertical-tabs.aui-tabs ul.tabs-menu li:first-child.menu-item {
+	margin-top: 1em;
+}
+.vertical-tabs.aui-tabs ul.tabs-menu li.active-tab.menu-item {
+	background: rgb(255, 255, 255); margin-left: -0.5em;
+}
+.vertical-tabs.aui-tabs li.menu-item a {
+	background: rgb(240, 240, 240); color: rgb(83, 83, 83);
+}
+.vertical-tabs.aui-tabs li.menu-item a:link {
+	background: rgb(240, 240, 240); color: rgb(83, 83, 83);
+}
+.vertical-tabs.aui-tabs li.menu-item a:visited {
+	background: rgb(240, 240, 240); color: rgb(83, 83, 83);
+}
+.vertical-tabs.aui-tabs li.menu-item a:hover {
+	background: rgb(255, 255, 255); color: rgb(83, 83, 83);
+}
+.vertical-tabs.aui-tabs li.menu-item a:active {
+	background: rgb(255, 255, 255); color: rgb(83, 83, 83);
+}
+.vertical-tabs.aui-tabs li.menu-item a:focus {
+	background: rgb(255, 255, 255); color: rgb(83, 83, 83);
+}
+.vertical-tabs.aui-tabs li.menu-item strong {
+	font-weight: 700; white-space: nowrap;
+}
+.vertical-tabs.aui-tabs .tabs-pane {
+	margin: 0px 0px 0px 11em; border: 1px solid rgb(187, 187, 187); position: relative; z-index: 1;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu {
+	top: 2px; overflow: hidden;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item {
+	width: auto; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li:first-child.menu-item {
+	margin-left: 1em;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item a {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) currentColor;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item a:link {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) currentColor;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item a:visited {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) currentColor;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item a:hover {
+	border-color: rgb(221, 221, 221);
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item a:active {
+	border-color: rgb(221, 221, 221);
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item a:focus {
+	border-color: rgb(221, 221, 221);
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.menu-item strong {
+	font-weight: 400;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.active-tab.menu-item {
+	border-bottom-color: rgb(255, 255, 255);
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.active-tab.menu-item a {
+	border: currentColor;
+}
+.horizontal-tabs.aui-tabs ul.tabs-menu li.active-tab.menu-item strong {
+	border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255);
+}
+.aui-toolbar {
+	background: rgb(240, 240, 240); width: 100%; padding-top: 10px; clear: both; border-top-color: rgb(187, 187, 187); border-top-width: 1px; border-top-style: solid; display: inline-block; position: relative;
+}
+.aui-toolbar .toolbar-group {
+	margin: 0px 10px 10px 0px; padding: 0px; float: left; display: inline-block; white-space: nowrap;
+}
+.aui-toolbar .toolbar-item {
+	margin: 0px; padding: 0px; float: left; display: inline-block;
+}
+.aui-toolbar .aui-dd-parent {
+	width: auto; position: relative;
+}
+.aui-toolbar .toolbar-split {
+	margin-left: 10px; float: left; display: inline-block;
+}
+.aui-toolbar .toolbar-split-right.toolbar-split {
+	float: right;
+}
+.aui-toolbar .toolbar-split-row.toolbar-split {
+	width: 100%; clear: both; float: none;
+}
+.aui-toolbar .toolbar-trigger {
+	cursor: default;
+}
+.aui-toolbar .toolbar-item-link .toolbar-trigger {
+	cursor: pointer;
+}
+.aui-toolbar .primary .toolbar-trigger {
+	font-weight: bold;
+}
+.aui-toolbar .toolbar-group .toolbar-trigger {
+	background: url("images/toolbar/aui-toolbar-button-inactive-bg.png") repeat-x left bottom rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) rgb(249, 249, 249); margin: 0px; padding: 0px 10px; width: auto; height: 22px; text-align: center; color: rgb(0, 0, 0); line-height: 22px; text-indent: 0px; font-family: Arial,Helvetica,sans-serif; font-size: 13px; text-decoration: none; float: left; display: inline-block; min-width: 14px;
+}
+.aui-toolbar .aui-dd-parent a.aui-dd-trigger {
+	background: url("images/toolbar/aui-toolbar-button-inactive-bg.png") repeat-x left bottom rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) rgb(249, 249, 249); margin: 0px; padding: 0px 10px; width: auto; height: 22px; text-align: center; color: rgb(0, 0, 0); line-height: 22px; text-indent: 0px; font-family: Arial,Helvetica,sans-serif; font-size: 13px; text-decoration: none; float: left; display: inline-block; min-width: 14px;
+}
+.aui-toolbar .toolbar-group .toolbar-item-link.toolbar-item .toolbar-trigger {
+	border: 0px currentColor; padding-top: 1px;
+}
+.aui-toolbar .toolbar-group .toolbar-item-link:hover .toolbar-trigger {
+	padding: 1px 0px 2px; border: 0px currentColor; color: rgb(60, 120, 181); text-decoration: none;
+}
+.aui-toolbar .toolbar-group .toolbar-item-link .toolbar-trigger {
+	padding: 1px 0px 2px; border: 0px currentColor; color: rgb(60, 120, 181); text-decoration: none;
+}
+.aui-toolbar .toolbar-group button.toolbar-trigger {
+	height: 24px; padding-bottom: 2px;
+}
+.aui-toolbar .toolbar-group input.toolbar-trigger {
+	height: 24px; padding-bottom: 1px;
+}
+.aui-toolbar .disabled {
+	opacity: 0.5;
+}
+.disabled.aui-toolbar a {
+	opacity: 0.5;
+}
+.aui-toolbar .active {
+	opacity: 1;
+}
+.aui-toolbar .active a {
+	opacity: 1;
+}
+.toolbar-group :first-of-type.toolbar-item a {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px;
+}
+.toolbar-group :first-of-type.toolbar-item button {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px;
+}
+.toolbar-group :first-of-type.toolbar-item input {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px;
+}
+.toolbar-group :last-of-type.toolbar-splitbutton.toolbar-item .aui-dd-trigger {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none; border-top-left-radius: 0px; border-bottom-left-radius: 0px; -webkit-border-top-left-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-topleft: 0; -moz-border-radius-bottomleft: 0;
+}
+.toolbar-group :last-of-type.toolbar-splitbutton.toolbar-item .aui-dd-trigger {
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px;
+}
+.toolbar-group :last-of-type.toolbar-item .toolbar-trigger {
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px;
+}
+.toolbar-group :last-of-type.toolbar-item button {
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px;
+}
+.toolbar-group :last-of-type.toolbar-item input {
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px;
+}
+.toolbar-group :last-of-type.toolbar-splitbutton .toolbar-trigger {
+	border-top-right-radius: 0px; border-bottom-right-radius: 0px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 0;
+}
+.toolbar-group :first-of-type.toolbar-item .toolbar-trigger {
+	border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid;
+}
+.toolbar-group :first-of-type.toolbar-item button {
+	border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid;
+}
+.aui-toolbar .toolbar-group .aui-dropdown {
+	border: 1px solid rgb(153, 153, 153);
+}
+.aui-toolbar .toolbar-group .aui-dropdown a {
+	border-radius: 0px; border: 0px currentColor; -moz-border-radius: 0; -webkit-border-radius: 0;
+}
+.aui-toolbar .toolbar-group .active .toolbar-trigger {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .toolbar-group .toolbar-trigger:focus {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .toolbar-group .toolbar-trigger:hover {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .toolbar-group button:focus {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .toolbar-group button:hover {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .aui-dd-parent .aui-dd-trigger:focus {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .aui-dd-parent .aui-dd-trigger:hover {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .toolbar-group .active .toolbar-trigger:hover {
+	border-color: rgb(153, 153, 153); outline: 0px;
+}
+.aui-toolbar .aui-dd-parent a.active.aui-dd-trigger {
+	background: url("images/toolbar/aui-toolbar-button-active-bg.png") repeat-x left top rgb(216, 228, 240); border-left-color: rgb(216, 228, 240); border-left-width: 1px; border-left-style: solid;
+}
+.aui-toolbar .toolbar-group .active .toolbar-trigger {
+	background: url("images/toolbar/aui-toolbar-button-active-bg.png") repeat-x left top rgb(216, 228, 240); border: 1px solid rgb(153, 153, 153);
+}
+.aui-toolbar .toolbar-group .toolbar-trigger:active {
+	background: url("images/toolbar/aui-toolbar-button-active-bg.png") repeat-x left top rgb(216, 228, 240); border: 1px solid rgb(153, 153, 153);
+}
+.aui-toolbar .toolbar-dropdown .icon-dropdown {
+	background: url("images/toolbar/aui-toolbar-24px.png") no-repeat 0px 0px; height: 100%; padding-right: 5px; margin-top: 0px; margin-right: -5px; margin-left: 5px; float: right; display: inline-block;
+}
+.aui-toolbar .toolbar-splitbutton .icon-dropdown {
+	background: url("images/toolbar/aui-toolbar-24px.png") no-repeat 0px 0px; height: 100%; padding-right: 5px; margin-top: 0px; margin-right: -5px; margin-left: 5px; float: right; display: inline-block;
+}
+.aui-toolbar .toolbar-dropdown .icon-dropdown {
+	background-position: -24px 10px; width: 7px;
+}
+.aui-toolbar .toolbar-dropdown .dropdown-text {
+	float: left; display: inline-block;
+}
+.aui-toolbar .toolbar-splitbutton .dropdown-text {
+	float: left; display: inline-block;
+}
+.toolbar-group .toolbar-splitbutton .aui-dd-parent {
+	float: left; display: inline-block;
+}
+.aui-toolbar .toolbar-splitbutton .aui-dd-parent .aui-dd-trigger {
+	margin: 0px; padding: 0px 2px; width: 9px; min-width: 0px;
+}
+.aui-toolbar .toolbar-splitbutton .icon-dropdown {
+	background-position: -46px 10px; width: 9px; text-indent: -9999px;
+}
+.aui-toolbar .toolbar-splitbutton .toolbar-trigger {
+	border-right-style: dotted;
+}
+.aui-toolbar .toolbar-splitbutton .aui-dd-parent .toolbar-trigger {
+	border-right-style: solid;
+}
+.icon-filters {
+	background: url("../../../images/icons/ico_filters.png") no-repeat 2px 2px; padding-left: 2.2em;
+}
+.icon-reports {
+	background: url("../../../images/icons/ico_reports.png") no-repeat 2px 2px; padding-left: 2.2em;
+}
+.icon-add {
+	background: url("../../../images/icons/add_20.png") no-repeat 2px 2px; padding-left: 2.2em;
+}
+.icon-edit {
+	background: url("../../../images/icons/edit_20.png") no-repeat 2px 2px; padding-left: 2.2em;
+}
+.icon-tools {
+	background: url("../../../images/icons/tools_20.png") no-repeat 2px 2px; padding-left: 2.2em;
+}
+.icon-tools-small {
+	background: url("../../../images/icons/tools_12.png") no-repeat 4px 0px; padding-left: 1.5em;
+}
+.icon-tools-small span {
+	background-repeat: no-repeat;
+}
+#issuetable .issue_actions a.icon-tools-small {
+	background-position: 0px -1px; background-image: url("../../../images/icons/tools_20.png"); background-repeat: no-repeat;
+}
+#issuetable .issue_actions a.loading.icon-tools-small {
+	background-position: 1px 1px; background-image: url("../../../images/wait-blue.gif");
+}
+.msie-7 .issue_actions a.icon-tools-small {
+	position: relative;
+}
+.msie-8 .issue_actions a.icon-tools-small {
+	position: relative;
+}
+.icon-views {
+	background: url("../../../images/icons/view_20.png") no-repeat 3px 3px; padding-left: 2.2em;
+}
+.fav-link {
+	width: 16px; height: 16px; text-indent: -9999px; display: block;
+}
+.enabled.fav-link {
+	background: url("../../../images/icons/star_yellow.gif") no-repeat 0px;
+}
+.disabled.fav-link {
+	background: url("../../../images/icons/star_grey.gif") no-repeat 0px;
+}
+a.loading.fav-link {
+	background: url("../../../images/icons/wait.gif") no-repeat 0px;
+}
+.icon {
+	background: url("../../../images/icons/sprites/icons_module.png") no-repeat 0px 0px; margin: 0px 0.16em; padding: 0px; width: 16px; height: 16px; overflow: hidden; vertical-align: text-top; display: inline-block;
+}
+.icon span {
+	text-indent: -9000px; display: none;
+}
+.icon img {
+	width: 16px; height: 16px; background-image: none;
+}
+.icon-add16 {
+	background-position: 0px -50px;
+}
+.icon-edit-sml {
+	background-position: 3px -699px;
+}
+.icon-delete {
+	background-position: 0px -150px;
+}
+.icon-delete-sml {
+	background-position: 0px -178px;
+}
+.icon-pagetop {
+	background-position: 0px -250px;
+}
+.icon-previous {
+	background-position: 0px -300px;
+}
+.icon-next {
+	background-position: 0px -350px;
+}
+.icon-first {
+	background-position: 0px -400px;
+}
+.icon-last {
+	background-position: 0px -450px;
+}
+.icon-close {
+	background-position: 0px -500px;
+}
+.icon-sort-down {
+	background-position: 0px -550px;
+}
+.icon-sort-up {
+	background-position: 0px -600px;
+}
+.icon-back {
+	background-position: 0px -650px;
+}
+.butt-edit {
+	background-position: 0px -700px;
+}
+.twixi-opened {
+	background-position: 0px -799px;
+}
+.twixi-closed {
+	background-position: 0px -849px;
+}
+.icon-view {
+	background-position: 0px -900px;
+}
+.icon-manage {
+	background-position: 0px -1110px;
+}
+.icon-perma {
+	background-position: 0px -950px;
+}
+.icon-download {
+	background-position: 0px -1000px;
+}
+.icon-page-prev {
+	background-position: 0px -1070px; width: 20px;
+}
+.icon-page-next {
+	background-position: 0px -1050px; width: 20px;
+}
+.icon-page-prev-deactivated {
+	background-position: -26px -1025px; width: 20px;
+}
+.icon-page-next-deactivated {
+	background-position: 0px -1025px; width: 20px;
+}
+.icon-is-on {
+	background-position: 3px -1087px;
+}
+.icon-is-off {
+	background-position: -22px -1087px;
+}
+.icon-userpicker {
+	background-position: 0px -101px;
+}
+.icon-watch-on {
+	background-position: 0px -1260px;
+}
+.icon-watch-off {
+	background-position: 0px -1180px;
+}
+.icon-watch-disabled {
+	background-position: 0px -1220px;
+}
+.icon-vote-on {
+	background-position: 0px -1360px;
+}
+.icon-vote-off {
+	background-position: 0px -1280px;
+}
+.icon-vote-disabled {
+	background-position: 0px -1320px;
+}
+.icon-unlocked {
+	background-position: 0px -1135px;
+}
+.icon-locked {
+	background-position: 0px -1155px;
+}
+.icon-add16:hover {
+	background-position: -25px -50px;
+}
+.icon-edit-sml:hover {
+	background-position: -22px -699px;
+}
+.icon-delete:hover {
+	background-position: -25px -150px;
+}
+.icon-delete-sml:hover {
+	background-position: -25px -178px;
+}
+.icon-pagetop:hover {
+	background-position: -25px -250px;
+}
+.icon-previous:hover {
+	background-position: -25px -300px;
+}
+.icon-next:hover {
+	background-position: -25px -350px;
+}
+.icon-first:hover {
+	background-position: -25px -400px;
+}
+.icon-last:hover {
+	background-position: -25px -450px;
+}
+.icon-close:hover {
+	background-position: -25px -500px;
+}
+.icon-sort-down:hover {
+	background-position: -25px -550px;
+}
+.icon-sort-up:hover {
+	background-position: -25px -600px;
+}
+.icon-back:hover {
+	background-position: -25px -650px;
+}
+.icon-view:hover {
+	background-position: -25px -900px;
+}
+.icon-manage:hover {
+	background-position: -25px -1110px;
+}
+.icon-perma:hover {
+	background-position: -25px -950px;
+}
+.icon-download:hover {
+	background-position: -25px -1000px;
+}
+.icon-page-prev:hover {
+	background-position: -25px -1070px;
+}
+.icon-page-next:hover {
+	background-position: -25px -1050px;
+}
+a.icon-watch-on:hover {
+	background-position: -25px -86px;
+}
+a.icon-watch-off:hover {
+	background-position: -25px -70px;
+}
+a.icon-vote-on:hover {
+	background-position: -25px -118px;
+}
+a.icon-vote-off:hover {
+	background-position: -25px -102px;
+}
+.icon-unlocked:hover {
+	background-position: -25px -1135px;
+}
+.icon-locked:hover {
+	background-position: -25px -1155px;
+}
+.drop-menu {
+	background-position: 0px -199px; margin: 0px;
+}
+.drop-menu:hover {
+	background-position: -25px -199px; margin: 0px;
+}
+.disabled .drop-menu {
+	background-position: 0px -224px; margin: 0px;
+}
+.disabled .drop-menu:hover {
+	background-position: 0px -224px; margin: 0px;
+}
+.icon-required {
+	width: 10px; background-image: url("../../../images/required.png");
+}
+.icon-f-required {
+	width: 10px; background-image: url("../../../images/required.png");
+}
+.icon-indent {
+	padding-left: 20px;
+}
+.icon-vgrabber {
+	margin: 0px; width: 4px; background-image: url("../../../images/vgrabber.png");
+}
+table .aui-field-datepicker .icon-date.aui-icon {
+	background: url("../../../images/icons/cal.gif") no-repeat 0px 0px; margin: 0px 1px; width: 16px; height: 16px; overflow: hidden; vertical-align: middle; display: inline-block;
+}
+.streorder .icon {
+	width: 12px; height: 10px; display: block;
+}
+.streorder .icon img {
+	width: 0px; height: 0px; display: none;
+}
+.streorder .icon-sort-down {
+	background-position: 0px -530px;
+}
+.streorder .icon-sort-up {
+	background-position: 0px -580px;
+}
+.streorder .icon-sort-down:hover {
+	background-position: -25px -530px;
+}
+.streorder .icon-sort-up:hover {
+	background-position: -25px -580px;
+}
+.streorder .subtask-reorder .sortArrow {
+	width: 5px; height: 5px;
+}
+.jqlerror {
+	background-image: url("../../../images/icons/error.png");
+}
+.jqlgood {
+	background-image: url("../../../images/icons/accept.png");
+}
+h2 .icon-help {
+	float: right;
+}
+h3 .icon-help {
+	float: right;
+}
+form.aui .file-input-list div.field-group .loading {
+	background: url("../../../images/icons/wait.gif") no-repeat 0px; padding-left: 18px; display: block;
+}
+#stqc_form_container div.field-group .loading {
+	background: url("../../../images/icons/wait.gif") no-repeat 0px; padding-left: 18px; display: block;
+}
+.action-details .icon-locked.icon {
+	background-position: -2px -1154px;
+}
+.action-details .icon-locked.icon:hover {
+	background-position: -2px -1154px;
+}
+.icon-users {
+	background-image: url("../../../images/icons/icon_users_16.png");
+}
+.icon-groups {
+	background-image: url("../../../images/icons/icon_groups_16.png");
+}
+.icon-roles {
+	background-image: url("../../../images/icons/icon_roles_16.png");
+}
+.cog-dd {
+	background: url("../../../images/icons/cog-dd.png") no-repeat 0px 0px; width: 32px; height: 18px;
+}
+.cog-dd.aui-dd-link span {
+	display: none;
+}
+.cog-dd:hover {
+	background-position: 0px -18px; background-color: rgb(60, 120, 181);
+}
+.active.cog-dd {
+	background-position: 0px -18px; background-color: rgb(60, 120, 181);
+}
+.multi-select {
+	width: 508px; position: relative;
+}
+form.aui .multi-select {
+	padding-left: 0px; margin-bottom: 2px;
+}
+.multi-select ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+form.aui .multi-select textarea {
+	margin: 0px; padding: 4px 19px 4px 4px; border: 1px solid rgb(153, 153, 153); height: 15px; line-height: 15px; overflow: hidden; float: left; display: block; resize: none;
+}
+.multi-select textarea {
+	margin: 0px; padding: 4px 19px 4px 4px; border: 1px solid rgb(153, 153, 153); height: 15px; line-height: 15px; overflow: hidden; float: left; display: block; resize: none;
+}
+.multi-select .aui-shadow {
+	left: -7px;
+}
+.multi-select .representation {
+	margin: 1px 20px 0px 1px; padding: 1px 0px 0px; left: 0px; top: 0px; overflow: hidden; position: absolute;
+}
+.multi-select .representation ul.items {
+	overflow: hidden; font-size: 11px; position: relative; cursor: text;
+}
+.multi-select .representation ul.items li {
+	background: rgb(255, 255, 255); padding: 2px 1px 1px 3px; float: left; position: relative; cursor: default;
+}
+.multi-select .icon {
+	top: 4px; right: 4px; position: absolute; cursor: pointer;
+}
+.multi-select .representation .value-item {
+	margin: 0px; padding: 0px; border: currentColor; width: auto; height: 16px; overflow: visible; font-family: Arial,FreeSans,Helvetica,sans-serif; float: left; display: block;
+}
+.multi-select .representation .value-item span {
+	background: url("../../../images/frother_bg_sml_edit.png") no-repeat 100% 0px; padding: 0px; color: rgb(0, 51, 102); font-size: 14px; display: block; position: relative;
+}
+.multi-select .representation .value-item span.value-text {
+	background-position: 0px -16px; margin: 0px 15px 0px 0px; padding: 1px 0px 2px 6px; height: 13px; font-size: 11px; display: block; white-space: nowrap;
+}
+.multi-select .representation ul.items em {
+	top: 2px; width: 16px; height: 16px; right: 0px; text-indent: -9999px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.multi-select .representation ul.items .overlabel {
+	color: rgb(153, 153, 153); padding-top: 0.3em; padding-left: 0.3em;
+}
+.multi-select .representation .focused .value-item {
+	background-position: 100% -32px;
+}
+.multi-select .representation .focused span {
+	background-position: 100% -32px;
+}
+.multi-select .representation .focused span.value-text {
+	background-position: 0px -48px;
+}
+#user-inputted-option a {
+	font-weight: bold;
+}
+#user-inputted-option .aui-item-suffix {
+	font-weight: normal;
+}
+.ajs-multi-select-placeholder {
+	padding: 0px 3px; border: 1px solid rgb(153, 153, 153); height: 23px; margin-bottom: 2px;
+}
+.aui-inline-dialog .contents {
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.aui-shadow {
+	display: none;
+}
+.msie .aui-shadow {
+	display: block;
+}
+.ajs-layer {
+	background: rgb(255, 255, 255); padding-top: 4px; padding-bottom: 4px;
+}
+.box-shadow.ajs-layer {
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.ajs-layer-placeholder {
+	display: none; position: relative;
+}
+.overlabel.box-shadow.ajs-layer {
+	font-size: 0.95em;
+}
+.overlabel.box-shadow.ajs-layer .aui-list {
+	font-size: 0.95em;
+}
+.limited.ajs-layer {
+	overflow-x: hidden; overflow-y: auto; max-height: 450px;
+}
+.ajs-layer {
+	border: 1px solid rgb(187, 187, 187); left: 0px; display: none; position: absolute; z-index: 5000; overflow-x: hidden; overflow-y: auto;
+}
+.msie-7 .ajs-layer {
+	border: 1px solid rgb(187, 187, 187);
+}
+.msie-8 .ajs-layer {
+	border: 1px solid rgb(187, 187, 187);
+}
+.aui-dropdown-content {
+	display: none;
+}
+.active.aui-dropdown-trigger {
+	position: relative; z-index: 9999;
+}
+.focus-selected.ajs-layer .aui-list {
+	
+}
+.focus-selected.ajs-layer .aui-list .active {
+	visibility: visible;
+}
+.focus-selected.ajs-layer .aui-list .active a.icn {
+	background-image: url("../../../images/icons/icn-tick.gif");
+}
+.focus-selected.ajs-layer h5 {
+	visibility: hidden;
+}
+.focus-selected.ajs-layer li {
+	visibility: hidden;
+}
+#fancybox-inner .content {
+	width: 600px;
+}
+.aui-popup {
+	left: 50%; top: 50%; position: fixed; z-index: 3000;
+}
+.aui-popup-content {
+	background: rgb(255, 255, 255); padding: 10px;
+}
+.aui-popup-content form.aui {
+	margin: 0px;
+}
+.aui-popup-content .buttons-container {
+	overflow: hidden; margin-bottom: 0px; min-height: 0px;
+}
+.aui-popup-content form.aui .buttons-container {
+	overflow: hidden; margin-bottom: 0px; min-height: 0px;
+}
+.aui-popup-content .buttons {
+	padding: 0px; text-align: right;
+}
+.aui-popup-content form.aui .buttons {
+	padding: 0px; text-align: right;
+}
+.aui-popup-content .buttons input.button {
+	margin: 0px 10px 0px 0px;
+}
+.aui-popup-content form.aui .buttons input.button {
+	margin: 0px 10px 0px 0px;
+}
+.aui-popup-content .buttons a.cancel {
+	margin: 0px;
+}
+.aui-popup-content form.aui .buttons a.cancel {
+	margin: 0px;
+}
+.popup-width-medium input.upfile {
+	width: 360px; margin-right: 0px;
+}
+.popup-width-medium input.long-field {
+	width: 360px; margin-right: 0px;
+}
+.popup-width-medium textarea.long-field {
+	width: 360px; margin-right: 0px;
+}
+.popup-width-medium .previewClass.wiki-edit-content {
+	width: 360px; margin-right: 0px;
+}
+.popup-width-large .previewClass.wiki-edit-content {
+	width: 506px;
+}
+.aui-popup .aui-popup-content {
+	padding: 0px;
+}
+.aui-popup .aui-popup-content .content-body {
+	padding: 10px; overflow: auto; position: relative;
+}
+.aui-popup .aui-popup-content .content-footer {
+	margin: 0px; padding: 10px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.box-shadow.aui-popup {
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.5); background-color: rgb(255, 255, 255); -moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.box-shadow.aui-popup .aui-popup-content {
+	background-color: transparent;
+}
+.aui-popup h2.aui-popup-heading {
+	background: rgb(240, 240, 240); margin: 0px; padding: 0px 1em; height: 43px; color: rgb(102, 102, 102); line-height: 43px; overflow: hidden; font-size: 1.3em;
+}
+.aui-loading {
+	left: 50%; top: 50%; width: 40px; height: 40px; margin-top: -25px; margin-left: -25px; display: none; position: fixed; background-image: url("../../../includes/jquery/plugins/fancybox/fancybox.png"); background-repeat: no-repeat;
+}
+.aui-item-suffix {
+	font-size: 11px;
+}
+.aui-list .aui-section-description {
+	font-size: 11px; font-weight: normal;
+}
+.aui-list .aui-list-section {
+	padding-bottom: 4px; margin-bottom: 4px; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.aui-list .aui-last.aui-list-section {
+	padding-bottom: 0px; margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.aui-list .aui-first.aui-list-section {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.aui-list .aui-list-item-link {
+	background-position: 5px 3px; padding: 0.3em 0.5em; color: rgb(51, 51, 51); text-decoration: none; display: block; background-repeat: no-repeat;
+}
+.aui-list .no-suggestions {
+	background-position: 5px 3px; padding: 0.3em 0.5em; color: rgb(51, 51, 51); text-decoration: none; display: block; background-repeat: no-repeat;
+}
+.aui-list .no-suggestions {
+	font-style: italic;
+}
+.aui-list .aui-iconised-link {
+	padding-left: 25px;
+}
+.msie .aui-list .active.aui-list-item .aui-list-item-link {
+	text-decoration: none;
+}
+.aui-list a em {
+	font-style: normal; font-weight: bold;
+}
+.aui-list ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.aui-list li.active a {
+	color: rgb(255, 255, 255); background-color: rgb(60, 120, 181);
+}
+.aui-list h5 {
+	padding: 0.3em 0.5em;
+}
+.aui-list li.aui-checked a {
+	background-position: 6px 5px; background-image: url("../../../images/icons/ico_option.gif"); background-attachment: scroll; background-repeat: no-repeat;
+}
+.aui-list li a.aui-checked {
+	background-position: 6px 5px; background-image: url("../../../images/icons/ico_option.gif"); background-attachment: scroll; background-repeat: no-repeat;
+}
+.aui-list li.aui-checking.aui-checked a {
+	color: rgb(255, 255, 255); background-color: rgb(60, 120, 181);
+}
+.aui-list-checked {
+	overflow: hidden;
+}
+.aui-list-checked .aui-list-item-link {
+	padding-left: 20px;
+}
+.aui-list-item-link.aui-list-checked {
+	padding-left: 20px;
+}
+.aui-inline-dialog {
+	z-index: 500;
+}
+.queryable-select {
+	position: relative;
+}
+form.aui .queryable-select {
+	padding-bottom: 2px;
+}
+.queryable-select .drop-menu {
+	top: 4px; right: 5px; position: absolute; cursor: pointer;
+}
+form.aui .queryable-select input.text {
+	margin: 0px; width: 312px; padding-right: 20px;
+}
+.queryable-select span.noloading.drop-menu.icon {
+	background-position: 0px -199px; background-image: url("../../../images/icons/sprites/icons_module.png");
+}
+.queryable-select span.noloading.drop-menu.icon:hover {
+	background-position: -25px -199px; margin: 0px;
+}
+.aui-popup {
+	background: rgb(255, 255, 255);
+}
+#jira .aui-dropdown {
+	min-width: 150px; box-shadow: 3px 3px 5px rgba(0,0,0,0.5); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+#jira .aui-dropdown li a.item-link {
+	color: rgb(51, 51, 51); min-width: 150px;
+}
+#jira .aui-dropdown li.active a.item-link {
+	color: rgb(255, 255, 255); background-color: rgb(60, 120, 181);
+}
+.hasIcon.multi-select {
+	width: 486px; padding-right: 24px;
+}
+.hasIcon.multi-select .drop-menu {
+	right: 28px;
+}
+.hasIcon.multi-select .issue-picker-popup {
+	background: url("../../../images/icons/create_12.png") no-repeat 6px 6px; padding: 6px; top: 0px; width: 12px; height: 12px; right: 0px; text-indent: -9999px; overflow: hidden; display: block; position: absolute;
+}
+.popup-width-medium .multi-select {
+	width: 376px;
+}
+.popup-width-medium .hasIcon.multi-select {
+	width: 350px;
+}
+.chrome .popup-width-medium .comment-input {
+	overflow: hidden;
+}
+.popup-width-medium #edit-labels-form .ajs-multi-select-placeholder {
+	width: 500px;
+}
+.popup-width-medium #edit-labels-form .multi-select {
+	width: 508px;
+}
+#fancybox-title {
+	white-space: nowrap;
+}
+#jira .main-nav-dropdown {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+#lead-suggestions {
+	display: none; min-width: 300px;
+}
+.results-wrap {
+	clear: both;
+}
+.results-wrap table {
+	clear: both;
+}
+.results-wrap::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.results-count {
+	margin: 0px 12px 1em; width: auto; float: left;
+}
+#results-count-total {
+	font-weight: 400;
+}
+.pagination {
+	margin: 0px 12px; width: auto; text-align: right; float: right;
+}
+.pagination a {
+	margin: 0px 2px;
+}
+.pagination strong {
+	margin: 0px 2px;
+}
+.pagination strong {
+	font-weight: 400;
+}
+.pagination a.icon {
+	margin: 0px; vertical-align: middle;
+}
+.results-details .results-count {
+	margin-right: 0px; margin-left: 0px;
+}
+.results-details .pagination {
+	margin-right: 0px; margin-left: 0px;
+}
+#issuetable {
+	width: 100%; margin-bottom: 0.63em; border-collapse: collapse; background-color: rgb(255, 255, 255);
+}
+.msie-7 .gadget #issuetable {
+	width: 100%; font-size: 12px;
+}
+.msie-8 .gadget #issuetable {
+	width: 100%; font-size: 12px;
+}
+#issuetable thead th {
+	padding: 3px 7px; color: rgb(153, 153, 153); font-weight: 400; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; background-color: transparent;
+}
+#issuetable thead .sortable {
+	cursor: pointer;
+}
+#issuetable thead .sortable {
+	border-top-left-radius: 2px; border-top-right-radius: 2px; -webkit-border-top-left-radius: 2px; -moz-border-radius-topleft: 2px; -webkit-border-top-right-radius: 2px; -moz-border-radius-topright: 2px;
+}
+#issuetable thead .sortable:hover {
+	background-color: rgb(247, 247, 247);
+}
+#issuetable thead .active {
+	color: rgb(255, 255, 255);
+}
+#issuetable thead .active:hover {
+	background-color: rgb(187, 187, 187);
+}
+#issuetable thead .ascending {
+	background: url("../../../images/icons/icon_ascending.png") no-repeat 100% 50% rgb(187, 187, 187); padding-right: 20px;
+}
+#issuetable thead .descending {
+	background: url("../../../images/icons/icon_descending.png") no-repeat 100% 50% rgb(187, 187, 187); padding-right: 20px;
+}
+#issuetable .rowHeader {
+	background-color: transparent;
+}
+#issuetable .rowNormal {
+	background-color: transparent;
+}
+#issuetable .rowAlternate {
+	background-color: transparent;
+}
+#issuetable th {
+	overflow: hidden;
+}
+#issuetable td {
+	overflow: hidden;
+}
+#issuetable > td {
+	color: rgb(51, 51, 51);
+}
+#issuetable img {
+	vertical-align: middle;
+}
+#issuetable td {
+	padding: 5px 7px; line-height: 1.286;
+}
+#issuetable .nav {
+	vertical-align: top; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#issuetable .parentIssue {
+	background: url("../../../images/icons/icon_separator.png") no-repeat 100% 2px; color: rgb(102, 102, 102); padding-right: 10px;
+}
+.gadget #issuetable .parentIssue {
+	background-position: 100% 1px;
+}
+#issuetable td a {
+	color: rgb(0, 0, 0);
+}
+#issuetable td a.parentIssue {
+	color: rgb(0, 0, 0);
+}
+#issuetable td.issuekey a {
+	color: rgb(60, 120, 181);
+}
+#issuetable td.summary a {
+	color: rgb(60, 120, 181);
+}
+#issuetable td.stsummary a {
+	color: rgb(60, 120, 181);
+}
+#issuetable .issuetype {
+	width: 16px; white-space: nowrap;
+}
+#issuetable .issuekey {
+	width: 16px; white-space: nowrap;
+}
+#issuetable .priority {
+	width: 16px; white-space: nowrap;
+}
+#issuetable .status {
+	width: 16px; white-space: nowrap;
+}
+.msie #issuetable .issuekey {
+	width: 1%;
+}
+.msie #issuetable .status {
+	width: 1%;
+}
+#issuetable .resolution {
+	white-space: nowrap; max-width: 25em;
+}
+#issuetable .created {
+	white-space: nowrap; max-width: 25em;
+}
+#issuetable .updated {
+	white-space: nowrap; max-width: 25em;
+}
+#issuetable .assignee {
+	min-width: 80px; max-width: 60em;
+}
+#issuetable .reporter {
+	min-width: 80px; max-width: 60em;
+}
+#issuetable .versions {
+	min-width: 80px; max-width: 60em;
+}
+#issuetable .components {
+	min-width: 80px; max-width: 60em;
+}
+#issuetable .fixVersions {
+	min-width: 80px; max-width: 60em;
+}
+#issuetable .versions .tinylink {
+	white-space: nowrap;
+}
+#issuetable .components .tinylink {
+	white-space: nowrap;
+}
+#issuetable .fixVersions .tinylink {
+	white-space: nowrap;
+}
+#issuetable td.summary > p {
+	margin: 0px; white-space: normal; min-width: 200px; max-width: 1400px;
+}
+#issuetable td.description > p {
+	margin: 0px; white-space: normal; min-width: 200px; max-width: 1400px;
+}
+.gadget #issuetable .summary > p {
+	margin: 0px; min-width: 100px;
+}
+.gadget #issuetable .description > p {
+	margin: 0px; min-width: 100px;
+}
+.msie-7 #issuetable td.summary > .ie7minWidth {
+	width: 200px; height: 0px; font-size: 0px;
+}
+#issuetable .issueCount {
+	text-align: center;
+}
+#issuetable .stsequence {
+	white-space: nowrap;
+}
+#issuetable td.progress {
+	width: 150px; text-align: right; min-width: 150px; max-width: 150px;
+}
+#issuetable td.aggregateprogress {
+	width: 150px; text-align: right; min-width: 150px; max-width: 150px;
+}
+#issuetable td.progress > table {
+	width: 150px; font-size: 1em; margin-top: 2px;
+}
+#issuetable td.aggregateprogress > table {
+	width: 150px; font-size: 1em; margin-top: 2px;
+}
+#issuetable td.progress td {
+	padding: 0px; line-height: 1; vertical-align: top;
+}
+#issuetable td.aggregateprogress td {
+	padding: 0px; line-height: 1; vertical-align: top;
+}
+#issuetable td.progress td.tt_graph_percentage {
+	width: auto; color: rgb(153, 153, 153); padding-right: 3px; min-width: 0px;
+}
+#issuetable td.aggregateprogress td.tt_graph_percentage {
+	width: auto; color: rgb(153, 153, 153); padding-right: 3px; min-width: 0px;
+}
+#issuetable td.progress td.tt_graph_percentage p {
+	width: 3em;
+}
+#issuetable td.aggregateprogress td.tt_graph_percentage p {
+	width: 3em;
+}
+#issuetable td.progress table.tt_graph {
+	height: 6px;
+}
+#issuetable td.aggregateprogress table.tt_graph {
+	height: 6px;
+}
+#issuetable .streorder {
+	width: 10px;
+}
+#issuetable .streorder div {
+	visibility: hidden;
+}
+#issuetable .issuerow:hover {
+	background-color: rgb(240, 240, 240);
+}
+.gadget #issuetable .hover.issuerow {
+	background-color: rgb(240, 240, 240);
+}
+.hide-carrot#issuetable > tbody > tr.issuerow:hover {
+	background-color: rgb(240, 240, 240);
+}
+.msie-7 #issuetable .issuerow:hover {
+	background-color: transparent;
+}
+.msie-7 .hide-carrot#issuetable > tbody > tr.issuerow:hover {
+	background-color: transparent;
+}
+#issuetable .focused.issuerow .streorder div {
+	visibility: visible;
+}
+#issuetable .issuerow:hover .streorder div {
+	visibility: visible;
+}
+.msie-7 .streorder .subtask-reorder {
+	font-size: 5px;
+}
+.msie-7 #issuetable .streorder:hover div {
+	visibility: visible !important;
+}
+.msie-7 #issuetable .streorder div {
+	visibility: visible !important;
+}
+#issuetable .issue_actions {
+	width: 18px;
+}
+#issuetable .issue_actions .aui-dd-parent {
+	width: 32px; height: 18px;
+}
+#issuetable .issue_actions a.aui-dd-link {
+	padding: 0px 0px 0px 19px; left: -9000px; top: -9000px; position: absolute;
+}
+.msie-7 #issuetable .issue_actions a.aui-dd-link {
+	left: 0px; top: 0px;
+}
+#issuetable .issue_actions a.active {
+	left: 0px; top: 0px;
+}
+#issuetable .focused.issuerow .issue_actions a.aui-dd-link {
+	left: 0px; top: 0px;
+}
+#issuetable .issuerow:hover .issue_actions a.aui-dd-link {
+	left: 0px; top: 0px;
+}
+.gadget #issuetable tr.hover .issue_actions a.aui-dd-link {
+	left: 0px; top: 0px;
+}
+#issuetable .issue_actions a.aui-dd-link span {
+	background-position: 2px 7px; width: 15px; height: 18px; text-indent: -9000px; overflow: hidden; display: block; background-image: url("../../../images/menu_indicator_for_light_backgrounds.gif");
+}
+#issuetable .issue_actions a.aui-dd-link:hover span {
+	background-image: url("../../../images/menu_indicator_for_dark_backgrounds.gif");
+}
+#issuetable .issue_actions a.active.aui-dd-link span {
+	background-image: url("../../../images/menu_indicator_for_dark_backgrounds.gif");
+}
+#issuetable .issue_actions a.aui-dd-link:hover {
+	color: rgb(255, 255, 255); background-color: rgb(60, 120, 181);
+}
+#issuetable .issue_actions a.active.aui-dd-link {
+	color: rgb(255, 255, 255); background-color: rgb(60, 120, 181);
+}
+.iss-nav #issuetable {
+	font-size: 12px;
+}
+.iss-nav #issuetable > tbody > tr > th:first-child {
+	padding-left: 12px;
+}
+.iss-nav #issuetable > tbody > tr > td:first-child {
+	padding-left: 12px;
+}
+.iss-nav #issuetable tr.focused {
+	background-color: rgb(234, 241, 253);
+}
+.iss-nav #issuetable > tbody > tr.focused > td:first-child {
+	background-position: 0px 9px; background-image: url("../../../images/icons/ico_activeissue.png"); background-repeat: no-repeat;
+}
+.iss-nav .hide-carrot#issuetable tr.focused {
+	background-color: transparent;
+}
+.iss-nav .hide-carrot#issuetable tr.focused td:first-child {
+	background-image: none;
+}
+.iss-nav #issuetable tr.issueactioneddissapearing {
+	background-color: rgb(255, 255, 221);
+}
+.iss-nav .hide-carrot#issuetable tr.issueactioneddissapearing {
+	background-color: rgb(255, 255, 221);
+}
+.iss-nav #issuetable tr.issueactioned {
+	background-color: rgb(255, 255, 221);
+}
+.iss-nav .hide-carrot#issuetable tr.issueactioned {
+	background-color: rgb(255, 255, 221);
+}
+#affectedIssueMsg {
+	left: 50%; top: 60px; margin-top: 2px; margin-bottom: 5px; position: absolute; z-index: 2499;
+}
+#affectedIssueMsg .aui-message {
+	margin: 0px; box-shadow: 3px 3px 5px rgba(0,0,0,0.5); -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.reorder-columns {
+	margin: 1em 0px 0.5em;
+}
+.reorder-columns h3 {
+	color: rgb(187, 187, 187);
+}
+a.hidden-link {
+	outline: white 0px; width: 1px; height: 1px; line-height: 0; font-size: 0px; display: block;
+}
+a.hidden-link span {
+	display: none;
+}
+.aui-ss {
+	position: relative;
+}
+.aui-ss .overlabel-apply {
+	top: 2px;
+}
+.aui-ss-editing.aui-ss .aui-ss-field {
+	background-color: rgb(255, 255, 255);
+}
+.aui-ss-has-entity-icon.aui-ss .aui-ss-field {
+	padding-left: 20px;
+}
+.aui-ss-has-entity-icon.aui-ss .aui-ss-entity-icon {
+	display: block;
+}
+.aui-ss .aui-ss-field {
+	color: rgb(0, 51, 102); box-sizing: border-box; background-color: rgb(235, 241, 253); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ie-box-sizing: border-box; -o-box-sizing: border-box;
+}
+.aui-ss .aui-ss-entity-icon {
+	left: 3px; top: 4px; width: 16px; height: 16px; display: none; position: absolute; background-repeat: no-repeat;
+}
+.aui-ss .aui-ss-icon {
+	top: 4px; right: 5px; position: absolute;
+}
+form.aui .aui-ss input.aui-ss-field {
+	color: rgb(0, 51, 102);
+}
+form.aui .aui-ss .overlabel-apply {
+	left: 5px;
+}
+form.aui .aui-ss-editing.aui-ss input.aui-ss-field {
+	color: rgb(0, 0, 0);
+}
+.msie .aui-ss-field {
+	border: 1px solid rgb(143, 168, 193); padding-top: 3px; padding-bottom: 3px;
+}

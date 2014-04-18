@@ -1,0 +1,145 @@
+<style>
+<!--
+link="#939402" alink="#4061A4" vlink="#4061A4"
+a:active {color: "#4061A4";text-decoration:none;}
+a:hover {color: "#4061A4";text-decoration:none;}
+a:visited{color: "#4061A4";text-decoration:none;}
+a:link {color: "#4061A4";text-decoration:none;}
+
+.subclass{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a.subclass{
+	color: white;
+	text-decoration:underline;
+}
+a.subclass:active {color:"#E7E7E7";text-decoration:none;}
+a.subclass:hover {color: "#E7E7E7";text-decoration:none;}
+a.subclass:link {color: "#E7E7E7";text-decoration:none;}
+a.subclass:visited{color:"#E7E7E7";text-decoration:none;}
+
+.editclass{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a.editclass{
+	color: white;
+	text-decoration:underline;
+}
+a.editclass:active {color:"yellow";text-decoration:none;}
+a.editclass:hover {color: "yellow";text-decoration:none;}
+a.editclass:link {color: "yellow";text-decoration:none;}
+a.editclass:visited{color:"yellow";text-decoration:none;}
+
+
+div
+{}
+.colorcell{}
+div.colorcell{
+	background-color:#cccccc;
+}
+
+body
+{
+	background-color:#ffffff;
+}
+.bodyclass{}
+body.bodyclass{background-color: #c4c7ba;}
+
+td {
+	font-family: "Verdana"; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #000000;
+	background-color:#e7e7e7;
+
+}
+.calender{}
+td.calender{
+	
+	background-color:#c4c7ba;
+}
+.calenderHeader{}
+td.calenderHeader{
+	background-color:#669999;
+}
+.displayheader{}
+td.displayheader{
+	font-family: "Arial"; 
+	font-size: 14pt; 
+	font-style: bold; 
+	color: #FFFFFF;
+	background-color: #4061A4
+}
+
+.labelcell{}
+td.labelcell{
+	font-family: "Trebuchet MS"; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: WHITE;
+	background-color:#4061A4
+}
+.blankcell{}
+td.blankcell{
+	font-family: "Trebuchet MS"; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #000000;
+	background-color:#ffffff
+}
+table {  
+	font-family: "Courier New", Courier, mono; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #330099
+}
+.displayhead{}
+table.displayhead{
+	background-color:#555555;
+}
+th {  
+	font-family: Verdana; 
+	font-size: 10pt; 
+	font-style: normal; 
+	font-weight: bold; 
+	color: #FFFFFF;  
+	background-color:#4061AA
+}
+tr {  
+	background-color: navy;
+}
+
+p {  
+	font-family: "Arial, Helvetica"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	color: #4682B4
+}
+.textInBox
+{
+	border:0;
+	background-color: #e7e7e7;
+	text-align:left;
+}
+ .InputBox	{
+ 		  BORDER-RIGHT:black 1px inset;
+ 		  BORDER-TOP: white 1px inset;
+ 		  BORDER-LEFT: white 1px inset;
+ 		  BORDER-BOTTOM: black 1px inset;
+ 		  FONT-FAMILY: Verdana;
+ 		}
+select {
+	font-family: verdana,arial,sans-serif; 
+	font-size: 9pt; 
+	font-style: normal; 
+	color: #000000;
+  // -->
+</style>

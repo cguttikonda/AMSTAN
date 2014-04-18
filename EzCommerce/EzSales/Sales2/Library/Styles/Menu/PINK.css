@@ -1,0 +1,74 @@
+<style type="application/octet-stream">
+<!--
+
+.menuclass{font-family: Verdana;font-size: 9px;font-style: normal;font-weight: normal;color: #FFFFFF;text-decoration: none;}
+a.menuclass:active{text-decoration: none;color: #FFFFFF}
+a.menuclass:hover{text-decoration: none;color: #FFFFFF}
+a.menuclass:link{text-decoration: none;color: #FFFFFF}
+a.menuclass:visited{text-decoration: none;color: #FFFFFF}
+body.menubgcolor{background-color: #990099;color: #FFFFFF;}
+.menusaparetar{color: #FFFFFF;}
+-->
+
+<!--
+
+a:active {text-decoration: none;color: #000000;}
+a:active {text-decoration: none;color: #000000;}
+a:hover  {text-decoration: none;color: #000000;}
+a:link   {text-decoration: none;color: #000000;}
+.footerbody{background-color:#FFFFFF;}
+.footerhelpline{background-color:#990099;}
+.footerbottam
+{
+	font-family:  Verdana, Arial; 
+	font-size: 8px; 
+	font-style: normal; 
+	color: #224400
+	background-color:"#e6e6e6";
+}
+.footerpowerby{
+	font-family:  Verdana, Arial; 
+	font-size: 9px; 
+	font-style: normal; 
+	color: #000000;
+}
+.footerlinkcell
+{
+	font-family:  Verdana, Arial; 
+	font-size: 10px; 
+	font-style: normal; 
+	color: #990099;
+}
+-->
+<!--
+.bannerbody{background-color:"#FFFFFF";}
+.newslabel{
+	font-family:  Verdana, Arial; 
+	font-style: normal; 
+	font-size: 11px;
+	color: #990099;
+	font-weight: bold; 
+}
+.userlabelcell{
+	color: #990099;
+	font-family:  Verdana, Arial; 
+	FONT-SIZE: 11px;
+	TEXT-DECORATION: none;
+	font-weight: bold; 
+}
+.usertextcell{
+	font-family:  Verdana, Arial; 
+	font-size: 11px; 
+	font-style: normal;
+	color: #886600;
+	font-weight: bold; 
+}
+.maillinkcell{
+	color: #990099;
+	font-family: verdana, arial;
+	font-size: 11px;
+   	text-decoration: none
+}
+-->
+
+</style>

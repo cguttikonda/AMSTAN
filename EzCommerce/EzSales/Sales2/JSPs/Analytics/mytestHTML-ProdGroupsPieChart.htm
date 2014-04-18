@@ -1,0 +1,62 @@
+<html>
+  <head>
+   <title> Top 5 Product Groups </title>
+   <script language="javascript" src="http://www.google.com/jsapi"></script>
+   </head>
+   <body>
+
+   <div id="chart"></div>
+
+   <script type="text/javascript">
+      var queryString = '';
+      var dataUrl = '';
+
+      function onLoadCallback() {
+        if (dataUrl.length > 0) {
+          var query = new google.visualization.Query(dataUrl);
+          query.setQuery(queryString);
+          query.send(handleQueryResponse);
+        } else {
+          var dataTable = new google.visualization.DataTable();
+          dataTable.addRows(5);
+
+          dataTable.addColumn('number');
+          dataTable.setValue(0, 0, 32.787);
+          dataTable.setValue(1, 0, 50.82);
+          dataTable.setValue(2, 0, 100);
+          dataTable.setValue(3, 0, 42.623);
+          dataTable.setValue(4, 0, 67.897);
+
+          draw(dataTable);
+        }
+      }
+
+      function draw(dataTable) {
+        var vis = new google.visualization.ImageChart(document.getElementById('chart'));
+        var options = {
+          chs: '450x250',
+          cht: 'p',
+          chco: '3366CC',
+          chd: 's:Uf9ap',
+          chdl: 'Amarili|Copeland|Dazzle|Flowise|Classic',
+          chp: '0',
+          chl: '11%|17%|35%|15%|22%',
+          chtt: 'Top5 Product Groups'
+        };
+        vis.draw(dataTable, options);
+      }
+
+      function handleQueryResponse(response) {
+        if (response.isError()) {
+          alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+          return;
+        }
+        draw(response.getDataTable());
+      }
+
+      google.load("visualization", "1", {packages:["imagechart"]});
+      google.setOnLoadCallback(onLoadCallback);
+
+    </script>
+  </body>
+</html>

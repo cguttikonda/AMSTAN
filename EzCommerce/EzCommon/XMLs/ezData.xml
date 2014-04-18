@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EzCommerce>
+	<Portal>
+		<domain>www.answerthink.com</domain>		
+	</Portal>
+	<EzSales>
+		<Support>ezcsupport@answerthink.com</Support>
+		<SOPrint>ZPFI</SOPrint>
+		<InvPrint>ZRD1</InvPrint>
+	</EzSales>
+	<EzVendor>
+		<support>ezcsupport@answerthink.com</support>
+	</EzVendor>
+</EzCommerce>

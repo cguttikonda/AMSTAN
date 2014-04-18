@@ -1,0 +1,71 @@
+<html>
+  <head>
+   <title> Top 5 Customers </title>
+   <script language="javascript" src="http://www.google.com/jsapi"></script>
+   </head>
+   <body>
+
+   <div id="chart"></div>
+
+   <script type="text/javascript">
+      var queryString = '';
+      var dataUrl = '';
+
+      function onLoadCallback() {
+        if (dataUrl.length > 0) {
+          var query = new google.visualization.Query(dataUrl);
+          query.setQuery(queryString);
+          query.send(handleQueryResponse);
+        } else {
+          var dataTable = new google.visualization.DataTable();
+          dataTable.addRows(10);
+
+          dataTable.addColumn('number');
+          dataTable.setValue(0, 0, 40);
+          dataTable.setValue(1, 0, 60);
+          dataTable.setValue(2, 0, 80);
+          dataTable.setValue(3, 0, 100);
+          dataTable.setValue(4, 0, 120);
+          dataTable.setValue(5, 0, 70);
+          dataTable.setValue(6, 0, 90);
+          dataTable.setValue(7, 0, 40);
+          dataTable.setValue(8, 0, 80);
+          dataTable.setValue(9, 0, 100);
+
+          draw(dataTable);
+        }
+      }
+
+      function draw(dataTable) {
+        var vis = new google.visualization.ImageChart(document.getElementById('chart'));
+        var options = {
+		  chxl: '1:|Lowes|Cardinal|Home|BradCo|Medco|Continental|SAP|Test|CONRES|C6551',
+          chxp: '',
+          chxr: '',
+          chxs: '',
+          chxtc: '',
+          chxt: 'y,x',
+          chbh: '23,20',
+          chs: '450x250',
+          cht: 'bvs',
+          chco: '010020',
+          chd: 's:jpucV',
+          chdl: 'Web Order Count',
+          chtt: 'Top Customers'        };
+        vis.draw(dataTable, options);
+      }
+
+      function handleQueryResponse(response) {
+        if (response.isError()) {
+          alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+          return;
+        }
+        draw(response.getDataTable());
+      }
+
+      google.load("visualization", "1", {packages:["imagechart"]});
+      google.setOnLoadCallback(onLoadCallback);
+
+    </script>
+  </body>
+</html>

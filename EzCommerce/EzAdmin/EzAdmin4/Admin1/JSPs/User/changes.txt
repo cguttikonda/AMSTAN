@@ -1,0 +1,70 @@
+<table border=1 align='center' borderColorDark="#ffffff" borderColorLight="#000000" cellPadding=2 cellSpacing=0   width="80%">
+
+<td>
+	<Table  border=1 align='center' borderColorDark="#ffffff" borderColorLight="#000000" cellPadding=2 cellSpacing=0   width="100%">
+	<Tr>
+      	<Th colspan="2">
+        <div align="center">Parameters</div>
+      	</Th>
+    	</Tr>
+    	
+	<Tr>
+		<Td  class="labelcell">
+		<div align="right">Select Parameters:</div>
+		</Td>
+		<Td >	
+
+			<select name="selparam" id=ListBoxDiv multiple="multiple" size=4>
+			<option value='ESDH_SOLD_TO'>Cutomer</option>
+			<option value='ESDI_MATERIAL_GROUP'>Material Group</option>
+			<option value='ESDI_REQ_QTY'>Required Qty</option>
+			<option value='ESDI_COMMITED_PRICE'>Commited Price</option>
+
+
+
+			</select>	
+		</Td>
+    	</Tr>
+	
+    	</Table>
+    </td>
+    
+    <td>
+    	<Table  border=1 align='center' borderColorDark="#ffffff" borderColorLight="#000000" cellPadding=2 cellSpacing=0   width="100%" >
+    	<Tr>
+          	<Th colspan="4">
+            <div align="center">Conditions</div>
+          	</Th>
+        	</Tr>
+        	
+    		<Tr>
+			<Td width="15%" class="labelcell">
+				<div align="right">Prod Group:</div>
+			</Td>
+			<Td width="40%">	    
+				<select name="prodgroups" id=ListBoxDiv multiple="multiple" size=4>
+				<option value='BASIC'>BASIC</option>
+				<option value='ECONOMY'>ECONOMY</option>
+				<option value='LUXURY'>LUXURY</option>
+				<option value='GRAND LUXURY'>GRAND LUXURY</option>
+				<option value='COMMERCIAL'>COMMERCIAL</option>     
+				</select>	
+			</Td>
+
+			<Td width="15%" class="labelcell">
+				<div align="right">State:</div>
+			</Td>
+			<Td width="50%">	
+				<select name="custstate" id=ListBoxDiv multiple="multiple" size=4>
+				<option value='TX'>Texas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option value='GA'>Georgia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option value='FL'>Florida&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option value='VA'>Virginia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option value='IN'>Indiana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				</select>	
+			</Td>
+        	</Tr>
+        	</Table>
+    </td>
+    
+</table>

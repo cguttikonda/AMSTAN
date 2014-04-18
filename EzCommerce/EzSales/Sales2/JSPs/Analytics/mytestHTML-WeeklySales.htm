@@ -1,0 +1,72 @@
+<html>
+  <head>
+   <title> Weekly Website Sales </title>
+   <script language="javascript" src="http://www.google.com/jsapi"></script>
+   </head>
+   <body>
+
+   <div id="chart"></div>
+
+   <script type="text/javascript">
+      var queryString = '';
+      var dataUrl = '';
+
+      function onLoadCallback() {
+        if (dataUrl.length > 0) {
+          var query = new google.visualization.Query(dataUrl);
+          query.setQuery(queryString);
+          query.send(handleQueryResponse);
+        } else {
+          var dataTable = new google.visualization.DataTable();
+          dataTable.addRows(7);
+
+          dataTable.addColumn('number');
+          dataTable.setValue(0, 0, 125000);
+          dataTable.setValue(1, 0, 107500);
+          dataTable.setValue(2, 0, 103500);
+          dataTable.setValue(3, 0, 135000);
+          dataTable.setValue(4, 0, 190000);
+          dataTable.setValue(5, 0, 167000);
+          dataTable.setValue(6, 0, 200000);
+
+          draw(dataTable);
+        }
+      }
+
+      function draw(dataTable) {
+        var vis = new google.visualization.ImageChart(document.getElementById('chart'));
+        var options = {
+          chxl: '',
+          chxp: '',
+          chxr: '0,50000,250000',
+          chxs: '',
+          chxtc: '',
+          chxt: 'y',
+          chs: '450x250',
+          cht: 'lc',
+          chco: '3D7930',
+          chds: '10000,250000',
+          chd: 't:125000,107500,103500,135000,190000,167000,200000',
+          chdl: 'Sales in US$',
+          chg: '14.3,-1,1,1',
+          chls: '2,4,0',
+          chm: 'B,76A4FBAC,0,0,0',
+          chtt: 'Weekly Website Sales'
+        };
+        vis.draw(dataTable, options);
+      }
+
+      function handleQueryResponse(response) {
+        if (response.isError()) {
+          alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+          return;
+        }
+        draw(response.getDataTable());
+      }
+
+      google.load("visualization", "1", {packages:["imagechart"]});
+      google.setOnLoadCallback(onLoadCallback);
+
+    </script>
+  </body>
+</html>

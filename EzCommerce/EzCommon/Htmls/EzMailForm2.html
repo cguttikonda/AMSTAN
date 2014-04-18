@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Enter User Details -- Powered By Answerthink</title>
+<head>
+<link rel="stylesheet" href="../../EzSales/Sales2/Library/Styles/ezThemePink.css">
+<script src="../../EzSales/Sales2/Library/JavaScript/ezCheckFormFields.js"></Script>
+<script>
+function funSubmit()
+{
+
+	var textFields 	= new Array();
+	var alertText 	= new Array();
+
+	textFields 	= ["userID","eMail"];
+	alertText 	= ["Please enter User ID","Please enter E-Mail ID"];
+	checkType 	= ["Mnull","MEMAIL"];
+
+	if(funCheckFormFields(document.myForm,textFields,checkType,alertText))
+	{
+		document.getElementById("ButtonDiv").style.visibility='hidden'
+		document.getElementById("EzMessageDiv").style.visibility='visible'
+		document.myForm.action="../JSPs/ezSubmitMailForm.jsp";
+		document.myForm.submit();
+	}
+}
+
+function changeClass(obj, new_style)
+{
+	obj.className = new_style;
+}
+
+
+</script>
+</head>
+<body scroll="no" onLoad="document.myForm.userID.focus()">
+<form name="myForm" method="post">
+
+
+	<Div id='UserDiv' style='position:relative;align:center;top:1%;width:100%;'>
+	<Table width="80%" border="0" cellspacing="0" cellpadding="0" align=center valign=center>
+	<Tr>
+		<Td height="5" style="background-color:'F3F3F3'" width="5" background="../Images/Table_Corners/Cb_c1.gif"><img height="5" width="5" src="../Images/Table_Corners/Cb_c1.gif"></Td>
+		<Td height="5" style="background-color:'F3F3F3'" background="../Images/Table_Corners/Cb_e1.gif"><img width="1" height="5" src="../Images/Table_Corners/Cb_e1.gif"></Td>
+		<Td height="5" style="background-color:'F3F3F3'" width="5" background="../Images/Table_Corners/Cb_c2.gif"><img height="5" width="5" src="../Images/Table_Corners/Cb_c2.gif"></Td>
+	</Tr>
+	<Tr height=100px>
+		<Td width="5" style="background-color:'F3F3F3'" background="../Images/Table_Corners/Cb_e2.gif"><img width="5" height="1" src="../Images/Table_Corners/Cb_e2.gif"></Td>
+		<Td style="background-color:'F3F3F3';font-size:14px" valign=middle align=center>
+			<Table width="60%" align="center" border=0 borderColorDark=#ffffff borderColorLight=#000000 cellPadding=2 cellSpacing=0 >
+					<tr>
+						<th style="background-color:'F3F3F3'" width="40%" align="right">User Id&nbsp;&nbsp;&nbsp;&nbsp;</th>
+						<td style="background-color:'F3F3F3'" width="60%"><input type="text" class=InputBox  name="userID" style="width:100%"></td>
+					</tr>
+					<tr>
+						<th style="background-color:'F3F3F3'" width="40%" align="right">EMail&nbsp;&nbsp;&nbsp;&nbsp;</th>
+						<td style="background-color:'F3F3F3'" width="60%"><input type="text" class=InputBox  name="eMail" style="width:100%"></td>
+					</tr>
+			</Table>
+			<BR>
+			<Table width="80%" align="center" border=0 borderColorDark=#ffffff borderColorLight=#000000 cellPadding=2 cellSpacing=0 >
+			<tr>
+				<td style="background-color:'F3F3F3'" colspan=2>
+					*Plese provide your portal user id & Official Mail Id
+				</td>
+			</tr>
+			</Table>
+		</Td>
+		<Td width="5" style="background-color:'F3F3F3'" background="../Images/Table_Corners/Cb_e3.gif"><img width="5" height="1" src="Cb_e3.gif"></Td>
+	</Tr>
+	<Tr>
+		<Td width="5" style="background-color:'F3F3F3'" height="5" background="../Images/Table_Corners/Cb_c3.gif"><img width="5" height="5" src="../Images/Table_Corners/Cb_c3.gif"></Td>
+		<Td height="5" style="background-color:'F3F3F3'" background="../Images/Table_Corners/Cb_e4.gif"><img width="1" height="5" src="../Images/Table_Corners/Cb_e4.gif"></Td>
+		<Td width="5" style="background-color:'F3F3F3'" height="5" background="../Images/Table_Corners/Cb_c4.gif"><img width="5" height="5" src="../Images/Table_Corners/Cb_c4.gif"></Td>
+	</Tr>
+	</Table>
+	</Div>
+
+    <input type="hidden" name="purchReq" value="">
+    <input type="hidden" name="flag" value="Y">
+<br>
+
+<Div id="ButtonDiv" style="position:absolute;top:80%;width:100%;visibility:visible">
+<Center>
+	<table border=0 cellspacing=3 cellpadding=5 class=buttonTable>
+	<tr>
+		<td nowrap class='TDCmdBtnOff' onMouseDown='changeClass(this,"TDCmdBtnDown")' onMouseUp='changeClass(this,"TDCmdBtnUp")' onMouseOver='changeClass(this,"TDCmdBtnUp")' onMouseOut='changeClass(this,"TDCmdBtnOff")' onClick='funSubmit()' valign=top title = 'Click here to Back'>
+			<b>&nbsp;&nbsp;&nbsp;&nbsp;Send &nbsp;&nbsp;&nbsp;&nbsp;</b>
+		</td>
+		<td nowrap class='TDCmdBtnOff' onMouseDown='changeClass(this,"TDCmdBtnDown")' onMouseUp='changeClass(this,"TDCmdBtnUp")' onMouseOver='changeClass(this,"TDCmdBtnUp")' onMouseOut='changeClass(this,"TDCmdBtnOff")' onClick='self.close()' valign=top title = 'Click here to Back'>
+			<b>&nbsp;&nbsp;&nbsp;&nbsp;Close &nbsp;&nbsp;&nbsp;&nbsp;</b>
+		</td>
+	</tr>
+	</table>
+</Center>
+</Div>
+
+<div id="EzMessageDiv" style="visibility:hidden;position:absolute;top:90%;align:center;width:100%">
+	<Table align=center width=70%>
+		<Tr>
+			<Th><b>Your request is being processed... Please wait</b></Th>
+		</Tr>
+	</Table>
+</div>
+
+</body>
+</html>

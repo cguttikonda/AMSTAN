@@ -1,0 +1,143 @@
+/*
+	--------------------------------------------
+  	IE SCREEN SETUP - EXPLORER SUX!
+  	Autor: YellowMedia
+	Web: www.yellowmedia.cz
+	
+	Version: 1.0
+  	Last update: 13/03/2006
+	--------------------------------------------
+*/
+
+
+div#introbody {
+	width: 538px;
+}
+
+div#menu {
+	margin-bottom: 5px;
+}
+
+div#banners {
+	margin-top: 0;
+}
+
+div#intro {
+	margin-top: 0;
+}
+
+div#introbody p {
+	margin-bottom: 7px;
+
+}
+
+div#bundles div.box {
+	margin: 8px 0;	
+}
+
+div#sidebar {
+	margin-top: 0px;
+}
+
+
+div#search input.input-search {
+	_height: 21px;
+	position: relative;
+	top: 2px;
+	_width: 165px;
+}
+
+
+div#newsletter input.input-newsletter {
+	_height: 21px;
+	position: relative;
+	top: 2px;
+	_width: 165px;
+}
+
+div#newsletter input.button-newsletter, div#search input.button-search {
+	position: relative;
+	top: 2px;
+}
+
+div.boxbody, div.version-in {
+	width: 215px;
+}
+
+div.boxhead span {
+	margin-top: -32px;
+}
+
+div#windows, div#linux {
+	width: 190px;
+}
+
+div#footer div.in {
+	padding: 16px 10px;
+}
+
+li ul {
+	width: 180px;
+}
+
+div#content div.contentbody {
+	_width: 540px;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+}
+
+div#content div.contenthead {
+	margin-top: 0;
+}
+
+div#content div.contenthead {
+	_margin-bottom: -17px;
+}
+
+div#content div.contentfooter {
+	_margin-bottom: -12px;
+}
+
+div.boxbodybody {
+	width: 213px;
+}
+
+div.submenu li a {
+	width: 213px;
+}
+
+div.submenu li a.level3 {
+	_width: 215px;
+}
+
+/*
+	--------------------------------------------
+  	IE 7 BETA SCREEN SETUP - EXPLORER SUX! but IE7 not too much ;-)
+  	Autor: YellowMedia
+	Web: www.yellowmedia.cz
+	
+	Version: 1.0
+  	Last update: 13/03/2006
+	--------------------------------------------
+*/
+
+
+
+*+div#menu li a  {
+	display: inline;
+	padding: 8px 5px;
+
+} 
+
+*+div#banners {
+	margin-bottom: 5px;
+	height: 175px;
+}
+
+*+div.boxbody, div.version-in {
+	width: 193px;
+}
+
+*+div#introbody {
+	width: 538;
+}

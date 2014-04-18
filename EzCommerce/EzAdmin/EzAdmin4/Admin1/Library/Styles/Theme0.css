@@ -1,0 +1,138 @@
+<style>
+<!--
+a:active {color: BLUE}
+a:hover {color: coral}
+a:link {color: indigo}
+
+.subclass{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a.subclass{
+	color: white;
+	text-decoration:underline;
+}
+a.subclass:active {color: yellow}
+a.subclass:hover {color: yellow}
+a.subclass:link {color: yellow}
+a.subclass:visited{color: WHITE}
+
+td {
+	font-family: "Verdana"; 
+	font-size: 9pt; 
+	font-style: normal; 
+	color: #8811F9;
+	background-color:#F3EDD8
+
+}
+.tabclass{}
+td.tabclass{background-color: #CCCCCC}
+
+.bgcolorclass{}
+body.bgcolorclass{background-color: #818181}
+
+.bodyclass{}
+body.bodyclass{background-color: #63319C}
+
+.menucell{}
+td.menucell{background-color: #63319C}
+
+.bannercell{}
+td.bannercell{background-color: #62106A}
+
+.textcell{}
+text.textcell{background-color: #E1EBF4}
+
+.bannerbody{}
+body.bannerbody{background-color: #62106A}
+td.bannerbody{background-color: #62106A}
+
+.displayheader{}
+td.displayheader{
+	font-family: "Arial"; 
+	font-size: 14pt; 
+	font-style: bold; 
+	color: #FFFFFF;
+	background-color: #818181;
+}
+
+.labelcell{}
+td.labelcell{
+	font-family: "Trebuchet MS"; 
+	font-size: 9pt; 
+	font-style: normal; 
+	color: #E1EBF4;
+	background-color:#818181
+}
+
+.blankcell{}
+td.blankcell{
+	background-color: #FFFFFF
+}
+
+.nonapplabel{}
+th.nonapplabel{
+	font-family: "Arial"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	color: #000000;
+	background-color: #F2CF09
+}
+
+table {  
+	font-family: "Courier New", Courier, mono; 
+	font-size: 14pt; 
+	font-style: normal; 
+	color: #330099
+}
+th {  
+	font-family: Verdana; 
+	font-size: 10pt; 
+	font-style: normal; 
+	font-weight: normal; 
+	color: #FFFFFF; 
+	background-color:#818181
+}
+body {  
+	color: #6699FF; 
+	background-color: #FFFFFF;
+}
+tr {  
+	font-family: "Trebuchet MS"; 
+	font-size: 10pt; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	color: #000066
+}
+.tx {
+	border:none;
+	background-color:#F3EDD8;
+	color: #8811F9;
+}
+
+p {  
+	font-family: "Arial, Helvetica"; 
+	font-size: 11pt; 
+	font-style: normal; 
+	color: #4682B4
+}
+
+.textInBox
+{
+	border:0;
+	background-color: #F3EDD8;
+	text-align:left;
+}
+ .InputBox	{
+ 		  BORDER-RIGHT:black 1px inset;
+ 		  BORDER-TOP: white 1px inset;
+ 		  BORDER-LEFT: white 1px inset;
+ 		  BORDER-BOTTOM: black 1px inset;
+ 		  FONT-FAMILY: Verdana;
+ 		}
+  // -->
+</style>

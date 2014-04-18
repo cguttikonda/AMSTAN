@@ -1,0 +1,57 @@
+div.gridbox{
+	overflow:hidden;
+}
+div.gridbox table.hdr td {
+	font-family:verdana, arial;
+	font-size:11px;
+	background-Color:#227A7A;
+	border: 1px solid;
+	border-color : white Gray Gray white;
+	text-align: center;
+	margin:0px;
+	padding:5px 0px 5px 0px ;
+	font-weight:normal;
+	color: #ABCDCE;
+	text-decoration: none;
+    -moz-user-select:none;
+	}
+div.gridbox table.obj td {
+	border: 1px solid;
+	border-color : white Gray Gray white;
+	font-family:arial;
+	font-size:12px;
+    -moz-user-select:none;
+	}
+div.gridbox .objbox {
+	background-color:#ABCDCE;
+
+	}
+div.gridbox table.obj td span.space, div.gridbox table.obj td img.space{ 
+	width:18px;
+	}
+div.gridbox table.obj tr.rowselected td.cellselected, div.gridbox table.obj td.cellselected {
+	background-color:#ABCDCE;
+	color:green;
+	}
+div.gridbox table.obj tr.rowselected td{
+	background-color:#ABCDCE;
+	color:green;
+	}
+div.gridbox table.obj td.editable{ 
+    -moz-user-select:text;
+    color:green;
+    }
+
+.odd
+{
+	background-color:white;
+}
+.even
+{
+	background-color:white;
+}
+.tFooter
+{
+	background-color:pink;
+}
+

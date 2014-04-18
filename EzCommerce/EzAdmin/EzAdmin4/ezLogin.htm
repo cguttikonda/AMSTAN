@@ -1,0 +1,136 @@
+<HTML><HEAD><Title>EzAdmin</Title>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<style>
+.footer {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-style: normal;
+	line-height: 15px;
+	font-weight: normal;
+	color: #660000;
+
+}
+select
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    TEXT-DECORATION: none
+}
+.InputBox	{
+ 		  BORDER-RIGHT:black 1px inset;
+ 		  BORDER-TOP: white 1px inset;
+ 		  BORDER-LEFT: white 1px inset;
+ 		  BORDER-BOTTOM: black 1px inset;
+ 		  FONT-FAMILY: Verdana;
+		  FONT-size:8pt;
+		  color:#660000;
+ 		}
+		.textcell{
+ 		  FONT-FAMILY: Verdana;
+		  FONT-size:9pt;
+
+		  color:#660000;
+ 		}
+</style>
+<SCRIPT language=JavaScript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function checkFields()
+{
+	if((document.f1.username.value=='')||(document.f1.password.value== ''))
+	{
+		if(document.f1.username.value=='')
+		{
+			alert("Enter UserID");
+			document.f1.username.focus();
+			return false;
+		}
+		if(document.f1.password.value== '')
+		{
+			alert("Enter Password");
+			document.f1.password.focus();
+			return false;
+		}
+	}
+	return true;
+}
+function submitForm()
+{
+	if(checkFields())
+	{
+		document.f1.submit();
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+// -->
+</SCRIPT>
+
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY bgColor=#ffcc66 leftMargin=0 text=#000000 topMargin=0 onLoad="document.f1.password.focus();" scroll = "no">
+<form action="Admin1/JSPs/Misc/ezAdminConfirm.jsp" method="post" name="f1">
+<P><IMG height=256 src="Admin1/Images/Loginimages/top6.gif" width=788></P>
+<DIV id=Layer5
+style="HEIGHT: 171px; LEFT: 478px; POSITION: absolute; TOP: 264px; WIDTH: 156px; Z-INDEX: 5">
+<DIV align=right>
+<Table  border=0 width="100%">
+  <TBODY>
+  <Tr>
+    <Td height=7 width="55%"><B><FONT face="Arial, Helvetica, sans-serif"
+      size=2>Login </FONT></B></Td>
+    <Td height=7 width="45%">
+      <DIV align=right><input type=text class = "InputBox"  maxLength=10 name=username style="width:100%" value="ezcadmin"> </DIV></Td></Tr>
+  <Tr>
+    <Td height=7 width="55%"><B><FONT face="Arial, Helvetica, sans-serif"
+      size=2>Password</FONT></B></Td>
+    <Td height=7 width="45%">
+      <DIV align=right><input type = "password" class = "InputBox"  maxLength=10 name=password style="width:100%" value=""> </DIV></Td></Tr>
+  <Tr>
+    <Td width="55%"><B><FONT face="Arial, Helvetica, sans-serif" size=2>Site
+      </FONT></B></Td>
+    <Td width="45%">
+      <DIV align=right>
+      	<!--<input type=text class = "InputBox"  maxLength=10 name=ConnGroup size=10 value="">-->
+	<Select name=ConnGroup>
+	<option value="100" selected>Mtucker(SQL-100)</option>
+	<option value="200" selected>Mtucker(SQL-200)</option>
+	<option value="243" >EzAdmin(SQL-243)</option>
+	</select>
+      </DIV></Td></Tr>
+  <Tr>
+    <Td width="55%">&nbsp;</Td>
+    <Td width="45%">
+      <DIV id=Layer6
+      style="HEIGHT: 30px; LEFT: -61px; POSITION: absolute; TOP: -111px; WIDTH: 263px; Z-INDEX: 6"><IMG
+      height=69 src="Admin1/Images/Loginimages/text4.gif" width=347></DIV>
+      <DIV align=center><img src="Admin1/Images/Loginimages/go6.gif" width=30 height=30 onClick="submitForm()" >
+</DIV>
+      <DIV id=Layer7
+      style="BACKGROUND-COLOR: #000000; BORDER-BOTTOM: #000000 1px; BORDER-LEFT: #000000 1px; BORDER-RIGHT: #000000 1px; BORDER-TOP: #000000 1px; HEIGHT: 13px; LEFT: -531px; POSITION: absolute; TOP: 14px; WIDTH: 15px; Z-INDEX: 6; layer-background-color: #000000"></DIV></Td></Tr></TBODY></Table></DIV></DIV>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<DIV id=Layer2
+style="BACKGROUND-COLOR: #ffb928; BORDER-BOTTOM: #000000 1px; BORDER-LEFT: #000000 1px; BORDER-RIGHT: #000000 1px; BORDER-TOP: #000000 1px; HEIGHT: 35px; LEFT: 0px; POSITION: absolute; TOP: 95%; WIDTH: 100%; Z-INDEX: 2; layer-background-color: #FFB928">
+<DIV align=center><FONT face="Arial, Helvetica, sans-serif" size=1>Powered By
+<a href="www.answerthink.com" targer="Answerthink"> <FONT color=#0033cc>Answerthink</FONT></a> (India) Ltd . Copyright©2002 - 2006
+</FONT></DIV></DIV>
+<DIV id=Layer1
+style="HEIGHT: 78px; LEFT: 25px; POSITION: absolute; TOP: 279px; WIDTH: 381px; Z-INDEX: 1"><FONT
+face="Arial, Helvetica, sans-serif" size=2>Enables the Administration and setup
+of EzCommerce Suite framework to enable end to end seamless integration between
+different business systems and web applications. </FONT></DIV>
+</form>
+</BODY></HTML>

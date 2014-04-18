@@ -1,0 +1,72 @@
+<html>
+  <head>
+   <title> Top Users </title>
+   <script language="javascript" src="http://www.google.com/jsapi"></script>
+   </head>
+   <body>
+
+   <div id="chart"></div>
+
+   <script type="text/javascript">
+      var queryString = '';
+      var dataUrl = '';
+
+      function onLoadCallback() {
+        if (dataUrl.length > 0) {
+          var query = new google.visualization.Query(dataUrl);
+          query.setQuery(queryString);
+          query.send(handleQueryResponse);
+        } else {
+          var dataTable = new google.visualization.DataTable();
+          dataTable.addRows(10);
+
+          dataTable.addColumn('number');
+          dataTable.setValue(0, 0, 57.70280095748603);
+          dataTable.setValue(1, 0, 67.47660767869093);
+          dataTable.setValue(2, 0, 76.0352703393437);
+          dataTable.setValue(3, 0, 46.08728994498961);
+          dataTable.setValue(4, 0, 34.02243589516729);
+          dataTable.setValue(5, 0, 50.02243589516729);
+          dataTable.setValue(6, 0, 59.02243589516729);
+          dataTable.setValue(7, 0, 43.02243589516729);
+          dataTable.setValue(8, 0, 77.02243589516729);
+          dataTable.setValue(9, 0, 62.02243589516729);
+
+          draw(dataTable);
+        }
+      }
+
+      function draw(dataTable) {
+        var vis = new google.visualization.ImageChart(document.getElementById('chart'));
+        var options = {
+          chxl: '1:|C6100|C6510|C6600|BABLANI|TEST1|MEDCO|BRADCO|HDEPOT|CONRES|C6551',
+          chxp: '',
+          chxr: '',
+          chxs: '',
+          chxtc: '',
+          chxt: 'y,x',
+          chbh: '23,20',
+          chs: '450x250',
+          cht: 'bvs',
+          chco: '008000',
+          chd: 's:jpucV',
+          chdl: 'Login Count',
+          chtt: 'Top Users'
+        };
+        vis.draw(dataTable, options);
+      }
+
+      function handleQueryResponse(response) {
+        if (response.isError()) {
+          alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+          return;
+        }
+        draw(response.getDataTable());
+      }
+
+      google.load("visualization", "1", {packages:["imagechart"]});
+      google.setOnLoadCallback(onLoadCallback);
+
+    </script>
+  </body>
+</html>

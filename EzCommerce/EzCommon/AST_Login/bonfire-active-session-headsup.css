@@ -1,0 +1,27 @@
+#bonfire-build-info {
+	display: none;
+}
+.bonfire-headsup {
+	padding: 3px; text-align: center; color: white; font-size: 12px; background-color: rgb(247, 164, 0);
+}
+#bonfire-linkToCurrentSession {
+	margin: 0px 3px; color: white;
+}
+.aui-theme-default #header #bonfire-linkToCurrentSession {
+	margin: 0px 3px; color: white;
+}
+#bonfire-linkToTriangle {
+	border-width: 4px 0px 4px 4px; border-style: solid none solid solid; border-color: transparent currentColor transparent white; top: 3px; width: 0px; height: 0px; position: absolute; content: "";
+}
+#bonfire-headsup-icon {
+	top: 2px; position: relative;
+}
+#bonfire-headsup-text {
+	top: -1px; position: relative;
+}
+#bonfire-headsup-extention-alert {
+	margin: 0px; padding: 5px; text-align: center; color: black; background-color: rgb(224, 239, 255);
+}
+#bonfire-headsup-close-button {
+	background: url("images/aui-icon-close.png") no-repeat 0px 0px; width: 16px; height: 16px; float: right; cursor: pointer;
+}

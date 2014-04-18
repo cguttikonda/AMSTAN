@@ -1,0 +1,3 @@
+<%
+	session.putValue("beingUsed","N");
+%>

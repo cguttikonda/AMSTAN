@@ -1,0 +1,48 @@
+#jira-frame {
+	border: currentColor; width: 100%;
+}
+#feedback-dialog .dialog-panel-body {
+	padding: 0px;
+}
+#feedback-dialog .content-body {
+	padding: 10px; overflow: auto;
+}
+#feedback-dialog .throbber.loading {
+	background: url("../../../images/icons/wait.gif") no-repeat 460px rgb(255, 255, 255);
+}
+#feedback-dialog .dialog-button-panel .submit-button {
+	padding: 2px 6px 3px; font-size: 12px;
+}
+.feedback-link {
+	background: url("images/feedback-charlie.png") no-repeat 0px 2px; top: 3px; padding-left: 23px; float: right;
+}
+.spch-bub-inside {
+	position: relative;
+}
+a.spch-bub-inside {
+	color: rgb(0, 0, 255); text-decoration: none;
+}
+.spch-bub-inside em {
+	padding: 0px 4px; border-radius: 2px; border: 1px solid rgb(187, 187, 187); color: rgb(255, 255, 255); font-size: 11px; font-style: normal; position: relative; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.spch-bub-inside .point {
+	left: -3px; top: 9px; width: 0px; height: 0px; border-right-color: rgb(187, 187, 187); border-bottom-color: rgba(0, 0, 0, 0); border-right-width: 3px; border-bottom-width: 3px; border-right-style: solid; border-bottom-style: solid; display: block; position: relative;
+}
+a.spch-bub-inside:hover {
+	text-decoration: none;
+}
+a.spch-bub-inside:hover em {
+	border-color: rgb(255, 255, 255); cursor: pointer;
+}
+a.spch-bub-inside:hover .point {
+	border-right-color: rgb(255, 255, 255); border-right-width: 3px; border-right-style: solid;
+}
+.msie-7 .spch-bub-inside .point {
+	overflow: hidden; border-bottom-color: rgb(0, 52, 102); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.msie-8 .spch-bub-inside .point {
+	overflow: hidden; border-bottom-color: rgb(0, 52, 102); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.msie-7 .spch-bub-inside em {
+	line-height: 18px;
+}
