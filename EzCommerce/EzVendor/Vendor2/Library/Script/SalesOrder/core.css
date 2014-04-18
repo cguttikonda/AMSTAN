@@ -1,0 +1,109 @@
+
+body,th,td {
+  font-family: 'Verdana',sans-serif;
+  font-size: 9pt;
+  color: #444444;
+}
+
+#pageContainer {
+  width: 400px;
+  margin: 8px auto;
+  border: 3px #4a6074 solid;
+  background-color: white;
+}
+
+#pageContent {
+  padding: 4px;
+}
+
+h1 {
+  width: auto;
+  height: auto;
+  background-image: none;
+  padding: 0;
+  color: #4a6074;
+  font-size: 2.4em;
+}
+
+body.fancy h1 {
+  
+  height: 41px;
+  font-size: 1.2em;
+  padding: 24px 0 0 80px;
+  margin: 0 0 16px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+button.green90x24 {
+  width: 90px;
+  height: 24px;
+  color: #444444;
+  font-weight: bold;
+  padding: 0;
+}
+
+div.module {
+  margin-bottom: 12px;
+}
+
+div.banner {
+  background-color: #a1c772;
+}
+
+div.banner h2 {
+  height: 23px;
+  color: white;
+  font-size: 2.1em;
+  font-weight: bold;
+  margin: 0 4px 0 4px;
+  padding: 7px 0 0 8px;
+}
+
+div.module div.body {
+  padding: 8px;
+  border: solid 2px #a1c772;
+  background-color: #f5ffe8;
+}
+
+div.module h3 {
+  color: #6b8150;
+  margin: 3px 0 3px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 8px 0;
+}
+
+
+div.separator {
+  clear: both;
+}
+
+
+
+.leftCap {
+  float: left;
+  width: 8px;
+  height: 30px;
+  
+}
+
+.rightCap {
+  float: right;
+  width: 8px;
+  height: 30px;
+  
+}
+/* CSS Document */
+

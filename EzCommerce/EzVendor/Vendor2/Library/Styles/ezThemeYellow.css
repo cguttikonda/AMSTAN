@@ -1,0 +1,157 @@
+<style>
+
+a:active {color: BLUE}
+a:hover {color: coral}
+a:link {color: indigo}
+
+.subclass{
+	font-family: Verdana;
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a.subclass{
+	color: white;
+	text-decoration:underline;
+}
+a.subclass:active {color: yellow}
+a.subclass:hover {color: yellow}
+a.subclass:link {color: yellow}
+a.subclass:visited{color: WHITE}
+
+td {
+	font-family: "Verdana"; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #000000;
+	background-color: #ffe9c4
+}
+.bodyclass{}
+body.bodyclass{background-color: #ffcf68}
+
+.welcomebody{}
+body.welcomebody{background-color: #ffe9c4}
+
+.bannercell_0{}
+font.bannercell_0{
+	font-family: "Verdana"; 
+	font-size: 9pt; 
+	font-style: normal; 
+	color: #000066
+	}
+.bannercell_1{}
+font.bannercell_1{
+	font-family: "Verdana"; 
+	font-size: 9pt; 
+	font-style: normal; 
+	color: #bf3533
+
+	}
+
+.footercell_0{}
+font.footercell_0{
+	font-family: "Verdana"; 
+	font-size: 8pt; 
+	font-style: normal; 
+	color: #000066
+
+	}
+
+.footercell_1{}
+font.footercell_1{
+	font-family: "Verdana"; 
+	font-size: 7pt; 
+	font-style: normal; 
+	color: #bf3533
+
+	}
+
+.displayheader{color: #FF9933; font-size: 20px; font-weight: bold}
+td.displayheader{
+	font-size: 14; 
+	font-weight: bold; 
+	color: #1e3766; 
+	background-color: #ffcf68;
+; font-family: Verdana, Arial, Helvetica, sans-serif
+}
+.labelcell{}
+td.labelcell{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+	font-style: normal; 
+	color: #1e3766;
+	background-color: #FFD58C
+; font-weight: normal
+}
+
+.blankcell{}
+td.blankcell{
+	background-color: #FFFFFF
+}
+.credit{}
+td.credit{color:black}
+
+.debit{}
+td.debit{color:red}
+
+table {  
+	font-family: "Courier New", Courier, mono; 
+	font-size: 14pt; 
+	font-style: normal; 
+	color: #330099
+}
+th {  
+	font-family: Verdana; 
+	font-size: 9pt; 
+	font-style: normal; 
+	font-weight: normal; 
+	color: #1e3766; 
+	background-color: #ffcf68
+}
+body {  
+	color: #6699FF; 
+	background-color: #FFFFFF
+}
+tr {  
+	font-family: "Trebuchet MS"; 
+	font-size: 9pt; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	color: #000066
+}
+p {  
+	font-family: "Arial, Helvetica"; 
+	font-size: 11pt; 
+	font-style: normal; 
+	color: #4682B4}
+.tx {
+	border:0;
+	background-color:#ffe9c4;
+	text-align:left;
+}
+.InputBox	{
+ 		  BORDER-RIGHT:black 1px inset;
+ 		  BORDER-TOP: white 1px inset;
+ 		  BORDER-LEFT: white 1px inset;
+ 		  BORDER-BOTTOM: black 1px inset;
+ 		  FONT-FAMILY: Verdana;
+ 		}
+
+.faqheader
+{
+    font-family: "Verdana"; 
+    font-size: 14px; 
+    font-weight: bold;
+    color: "#ffcf68";
+}
+
+.faqdata
+{
+    font-family: "Verdana"; 
+    font-size: 11px; 
+    color: "#000000";
+}
+
+</style>

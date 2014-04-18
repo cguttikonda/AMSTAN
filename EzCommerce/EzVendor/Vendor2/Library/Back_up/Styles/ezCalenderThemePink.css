@@ -1,0 +1,89 @@
+<style type="application/octet-stream">
+<!--
+.caltable{}
+table.caltable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #663366;
+	}
+
+.caltd{}
+td.caltd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #663366;
+	color: #ffffff
+	}
+
+.caltdweeknames{}
+td.caltdweeknames {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #663366;
+	color: #ffffff
+	}
+
+.caltdtoday{}
+td.caltdtoday {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #663366;
+	color: #ffcc00;
+	cursor: pointer;
+	cursor: hand
+	}
+
+caltdtodatover{}
+td.caltdtodatover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #ffcc00;
+	color:#000000;
+	cursor: pointer;
+	cursor: hand
+	}
+
+.caltdtodaydate{}
+td.caltdtodaydate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #ffcc00;
+	}
+.caltdsunsatdates{}
+td.caltdsunsatdates{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #663366;
+	color:#ffcc00
+}
+caltdsunsatdatesOver{}
+td.caltdsunsatdatesOver{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #ffcc00;
+	color:#000000;
+	cursor: pointer;
+	cursor: hand
+}
+.caltdtodaydateover{}
+td.caltdtodaydateover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #ffcc00;
+	color:#000000;
+	cursor: pointer;
+	cursor: hand
+	}
+.caltdover{}
+td.caltdover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #ffcc00;
+	color:#000000;
+	cursor: pointer;
+	cursor: hand
+
+	}
+-->
+</style>
